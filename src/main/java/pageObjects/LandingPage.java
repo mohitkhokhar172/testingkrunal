@@ -7,28 +7,31 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LandingPage {
 
+    WebDriver driver;
 
-    //Locator for the signin button
     @FindBy (xpath = "//a[@title='Sign In']")
     private WebElement signinButton;
 
-    //Locator for the signin button
+
     @FindBy (css= "[title=Register]")
     private WebElement registerButton;
 
     public LandingPage(WebDriver driver){
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    //Click on signin button on the homepage
-    public void clickOnSignin(){
+
+    public LandingPage clickOnSignin(){
         this.signinButton.click();
+        return this;
 
     }
 
     //Click on register button on the homepage
-    public void clickonRegister(){
+    public LandingPage clickonRegister(){
         this.registerButton.click();
+        return this;
     }
 
 
