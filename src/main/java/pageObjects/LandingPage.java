@@ -16,17 +16,22 @@ public class LandingPage {
     @FindBy (css= "[title=Register]")
     private WebElement registerButton;
 
+
+    @FindBy(linkText = "Post ad")
+    private WebElement postAdBtn;
+
     public LandingPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
 
+    //Click on Signin button (This is the button on the top-right hand side) on the homepage
     public LandingPage clickOnSignin(){
         this.signinButton.click();
         return this;
-
     }
+
 
     //Click on register button on the homepage
     public LandingPage clickonRegister(){
@@ -34,7 +39,23 @@ public class LandingPage {
         return this;
     }
 
+    //Click on "Post ad" button on the homepage
+    public LandingPage clickOnPostAdBtn(){
+        this.postAdBtn.click();
+        return this;
+    }
 
+    // This method pass the driver from Landing page to Signin page for efficient chaining
+    public SigninPage afterClickOnSignin(){
+        this.signinButton.click();
+        return new SigninPage(driver);
+    }
+
+    // This method pass the driver from Landing page to Post ad page for efficient chaining.
+    public PostAdPage afterClickingPostAdBtn(){
+        this.postAdBtn.click();
+        return new PostAdPage(driver);
+    }
 
 
 }

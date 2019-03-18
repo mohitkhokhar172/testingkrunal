@@ -10,13 +10,13 @@ public class SigninPage {
     WebDriver driver;
 
     @FindBy(id = "LoginEmailOrNickname")
-    public WebElement emailAddressField;
+    private WebElement emailAddressField;
 
     @FindBy(id = "login-password")
-    public WebElement passwordField;
+    private WebElement passwordField;
 
     @FindBy(id = "login-rememberMe")
-    public WebElement signInCheckBox;
+    private WebElement signInCheckBox;
 
     @FindBy(xpath = "//button[@id='SignInButton']")
     private WebElement loginButton;

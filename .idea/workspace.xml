@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="310994de-b71b-40d5-87a2-98fbd4f0c596" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SiginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Karan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SiginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Signin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="192">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,17 +42,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="178">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="173">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +64,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="305">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +87,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="-7">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,19 +128,21 @@
         <option value="$PROJECT_DIR$/src/main/java/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/TestCases.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/SiginPage.java" />
         <option value="$PROJECT_DIR$/data.properties" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Register.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Signin.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Shabana.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SiginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" />
       </list>
     </option>
   </component>
@@ -209,10 +236,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552892568979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552944001190" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -231,8 +259,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Karan.siginInNoPswd">
-    <configuration name="Karan" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Karan_PostAd.postAdMin8chars (1)">
+    <configuration name="Karan_PostAd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
@@ -241,14 +269,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Karan" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Karan.siginInNoPswd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Karan_PostAd.postAdMin8chars (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
@@ -257,9 +285,61 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Karan" />
-      <option name="METHOD_NAME" value="siginInNoPswd" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
+      <option name="METHOD_NAME" value="postAdMin8chars" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Karan_PostAd.postAdMin8chars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
+      <option name="METHOD_NAME" value="postAdMin8chars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Karan_PostAd.signinSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
+      <option name="METHOD_NAME" value="signinSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Karan_Signin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_Signin" />
       <properties />
       <listeners />
       <method v="2">
@@ -276,55 +356,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Signin.OpenBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Signin" />
-      <option name="METHOD_NAME" value="OpenBrowser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Signin.OpenWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Signin" />
-      <option name="METHOD_NAME" value="OpenWebsite" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Signin.signin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Signin" />
-      <option name="METHOD_NAME" value="signin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Karan.siginInNoPswd" />
-        <item itemvalue="TestNG.Karan" />
-        <item itemvalue="TestNG.Signin.signin" />
-        <item itemvalue="TestNG.Signin" />
-        <item itemvalue="TestNG.Signin.OpenWebsite" />
+        <item itemvalue="TestNG.Karan_PostAd.postAdMin8chars (1)" />
+        <item itemvalue="TestNG.Karan_PostAd.postAdMin8chars" />
+        <item itemvalue="TestNG.Karan_PostAd" />
+        <item itemvalue="TestNG.Karan_PostAd.signinSuccessfully" />
+        <item itemvalue="TestNG.Karan_Signin" />
       </list>
     </recent_temporary>
   </component>
@@ -342,39 +380,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCases - 2019.03.17 at 13h 09m 10s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases_(1) - 2019.03.17 at 13h 12m 38s.xml">
-      <configuration name="TestCases (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2019.03.17 at 13h 17m 49s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestCases - 2019.03.17 at 14h 19m 32s.xml">
-      <configuration name="TestCases" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Signin_signin - 2019.03.17 at 15h 57m 34s.xml">
-      <configuration name="Signin.signin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Karan_siginInNoPswd - 2019.03.18 at 01h 45m 15s.xml">
-      <configuration name="Karan.siginInNoPswd" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Karan - 2019.03.18 at 02h 16m 11s.xml">
+    <history-entry file="Karan - 2019.03.18 at 14h 25m 57s.xml">
       <configuration name="Karan" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan - 2019.03.18 at 02h 30m 46s.xml">
+    <history-entry file="Karan - 2019.03.18 at 14h 43m 41s.xml">
       <configuration name="Karan" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_siginInNoPswd - 2019.03.18 at 02h 54m 25s.xml">
-      <configuration name="Karan.siginInNoPswd" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_postAdMin8chars - 2019.03.18 at 15h 58m 10s.xml">
+      <configuration name="Karan_PostAd.postAdMin8chars" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_siginInNoPswd - 2019.03.18 at 02h 57m 25s.xml">
-      <configuration name="Karan.siginInNoPswd" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_postAdMin8chars - 2019.03.18 at 16h 04m 26s.xml">
+      <configuration name="Karan_PostAd.postAdMin8chars" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Karan_PostAd - 2019.03.18 at 16h 12m 13s.xml">
+      <configuration name="Karan_PostAd" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Karan_PostAd - 2019.03.18 at 16h 22m 53s.xml">
+      <configuration name="Karan_PostAd" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Karan_PostAd_signinSuccessfully - 2019.03.18 at 16h 33m 03s.xml">
+      <configuration name="Karan_PostAd.signinSuccessfully" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Karan_PostAd_postAdMin8chars - 2019.03.18 at 16h 40m 12s.xml">
+      <configuration name="Karan_PostAd.postAdMin8chars" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Karan_PostAd - 2019.03.18 at 16h 42m 32s.xml">
+      <configuration name="Karan_PostAd" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Karan_PostAd_postAdMin8chars - 2019.03.18 at 17h 13m 40s.xml">
+      <configuration name="Karan_PostAd.postAdMin8chars" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -384,12 +423,12 @@
       <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49756098" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="6" sideWeight="0.502439" side_tool="true" weight="0.21104388" />
       <window_info anchor="bottom" id="Messages" weight="0.24222586" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.47954175" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.61865795" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32569557" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3453355" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -400,24 +439,24 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="3" sideWeight="0.502439" side_tool="true" weight="0.21104388" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49918166" visible="true" weight="0.1732224" />
-      <window_info id="Structure" order="6" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49756098" visible="true" weight="0.21104388" />
+      <window_info id="Structure" order="6" sideWeight="0.502439" side_tool="true" weight="0.21104388" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.24222586" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.61865795" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.5008183" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.45662847" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -431,6 +470,10 @@
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -481,34 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="-7">
+          <caret line="85" column="51" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -517,18 +536,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="-7">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state relative-caret-position="144">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
