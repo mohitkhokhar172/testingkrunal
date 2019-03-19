@@ -28,7 +28,7 @@ public class DriverManager {
 
         try {
 
-            FileInputStream fis = new FileInputStream("C:\\Users\\Owner\\project_kijiji\\data.properties");
+            FileInputStream fis = new FileInputStream("C:\\Users\\MUGUNDHAN-PC\\kijiji_github\\project_kijiji\\data.properties");
             Properties prop = new Properties();
             prop.load(fis);
 
