@@ -15,6 +15,9 @@ public class PostAdPage {
     @FindBy(xpath = "//*[text() ='Next']")
     private WebElement nextBtn;
 
+    @FindBy (id = "AdTitleForm")
+    WebElement adTitlefield;
+
     public PostAdPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -28,6 +31,11 @@ public class PostAdPage {
 
     public PostAdPage clickNextBtn(){
         this.nextBtn.click();
+        return this;
+    }
+
+    public PostAdPage enterDiscription (String description) {
+        this.adTitlefield.sendKeys(description);
         return this;
     }
 

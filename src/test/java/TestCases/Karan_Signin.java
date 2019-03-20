@@ -78,7 +78,7 @@ public class Karan_Signin extends DriverManager {
         Assert.assertEquals(checkBoxSelected, false, "FAIL: The checkbox was not unchecked");
     }
 
-    @AfterClass
+    @AfterClass(dependsOnMethods = {"siginInNoPswd"})
     public void closureActivities(){
 
         System.out.println("Deleting all the cookies");
