@@ -27,8 +27,9 @@ public class DriverManager {
     public WebDriver getBrowser() {
 
         try {
+            String fisPath = "fisPath";
 
-            FileInputStream fis = new FileInputStream("C:\\Users\\MUGUNDHAN-PC\\kijiji_github\\project_kijiji\\data.properties");
+            FileInputStream fis = new FileInputStream(fisPath);
             Properties prop = new Properties();
             prop.load(fis);
 
