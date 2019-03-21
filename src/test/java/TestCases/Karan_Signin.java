@@ -18,9 +18,9 @@ public class Karan_Signin extends DriverManager {
      * Created by: Karan
      * Created on March 17th, 2019
      * Updated by: Karan
-     * Updated on: MArch 18th, 2019
+     * Updated on: March 18th, 2019
      * */
-    @Test(parameters = {"Priority1"})
+    @Test
     public void siginInNoPswd() {
         getBrowser();
 
