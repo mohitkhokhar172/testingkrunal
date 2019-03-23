@@ -31,7 +31,6 @@ public class DriverManager {
             FileInputStream fis = new FileInputStream("data.properties");
             Properties prop = new Properties();
             prop.load(fis);
-
             String browser = prop.getProperty("browser");
             String chromePath = prop.getProperty("chromePath");
             String firefoxPath = prop.getProperty("firefoxPath");
@@ -56,6 +55,7 @@ public class DriverManager {
             }
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.get("https://www.kijiji.ca/");
+            driver.manage().window().maximize();
         } catch (Exception ex){
             ex.getMessage();
         }
