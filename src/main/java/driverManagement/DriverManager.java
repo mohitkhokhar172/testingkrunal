@@ -33,11 +33,11 @@ public class DriverManager {
 
     // Explicit wait method for clickable
     public void setClickableWait(WebElement element) {
-        wait = new WebDriverWait(driver, 40);
+        wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    // Fluent wait method for clickable
+    // Fluent wait method for stale element
     public void setFluentWait(WebElement element) {
         fluentWait = new FluentWait<WebElement>(element)
                 .withTimeout(30, TimeUnit.SECONDS)
@@ -45,6 +45,7 @@ public class DriverManager {
                 .ignoring(StaleElementReferenceException.class);
 
     }
+
 
     // A method for deleting all the ccookies and closing the window
     public void closureActivities(){

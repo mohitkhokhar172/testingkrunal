@@ -24,10 +24,14 @@ public class AddDetailsPage {
         @FindBy (xpath = "//div/input[@class='add-asterisk']")
         public WebElement Ad_details_title;
 
+
+
         public AddDetailsPage(WebDriver driver){
             this.driver=driver;
             PageFactory.initElements(driver,this);
         }
+
+
 
         public pageObjects.AddDetailsPage chnageCategory_click(){
             this.Change_category.click();

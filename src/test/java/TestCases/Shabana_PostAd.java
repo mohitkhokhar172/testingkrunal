@@ -34,7 +34,7 @@ public class Shabana_PostAd extends DriverManager {
             signinPage.enterPassword("Kselproj2019*");
             signinPage.clickLogin();
             PostAdPage postAdPage = new PostAdPage(driver);
-            postAdPage.enterDiscription("1111aaaa");
+            postAdPage.editAdTitleFiled("1111aaaa");
             postAdPage.clickNextBtn();
 
             driver.manage().window().maximize();
@@ -47,6 +47,7 @@ public class Shabana_PostAd extends DriverManager {
             postAdPage.selectTutorNLanguage();
 
         } catch (Exception ex) {
+            System.out.println(ex.getMessage());
         }
     }
 }
