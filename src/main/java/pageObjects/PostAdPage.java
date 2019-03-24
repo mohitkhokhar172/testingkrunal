@@ -17,7 +17,7 @@ public class PostAdPage {
     private WebElement nextBtn;
 
     @FindBy (id = "AdTitleForm")
-    WebElement adTitlefield;
+    private WebElement adTitlefield;
 
     @FindBy(xpath = "//span[@class='maxCharCountdown-2996436710']")
     WebElement spnCountChar;
@@ -25,11 +25,77 @@ public class PostAdPage {
     @FindBy(css = ".headerButtonPostAd-2493039301")
     WebElement btnPsotAd;
 
+    @FindBy(xpath = "//*[text() = 'Services']")
+    private WebElement servicesLink;
+
+    @FindBy(xpath = "//*[text() = 'Tutors & Languages']")
+    private WebElement tutorAndLanguageLink;
+
+    @FindBy(id = "pstad-descrptn")
+    private WebElement descriptionField;
+
+    @FindBy(id = "pstad-map-address")
+    private WebElement addressField;
+
+    @FindBy(xpath = "//input[@name='postAdForm.phoneNumber']")
+    private WebElement phoneField;
+
+    @FindBy(xpath = "//button[@data-qa-id='package-0-bottom-select']")
+    private WebElement basicPackageBtn;
+
+    @FindBy(id = "PostAdPreview")
+    private WebElement previewBtn;
+
+//    @FindBy(xpath = "//div[@class='allCategoriesContainer-1722591519']")
+//    private List<WebElement> selectCatgories;
+
     public PostAdPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
+//    public PostAdPage getAllCategories(){
+//        this.selectCatgories.getClass();
+//        return this;
+//    }
+
+    public PostAdPage enterDescription(String descriptionDetails){
+        this.descriptionField.sendKeys(descriptionDetails);
+        return this;
+    }
+
+
+    public PostAdPage enterAddress(String addressDetails){
+        this.addressField.sendKeys(addressDetails);
+        return this;
+    }
+
+    public PostAdPage enterPhoneNumber(String phonenumber){
+        this.phoneField.sendKeys(phonenumber);
+        return this;
+    }
+
+    public PostAdPage selectBasicPackage(){
+        this.basicPackageBtn.click();
+        return this;
+    }
+
+
+    public PostAdPage clickPreviewBtn(){
+        this.previewBtn.click();
+        return this;
+    }
+
+
+    public PostAdPage clickTutorAndLanguageLink(){
+        this.tutorAndLanguageLink.click();
+        return this;
+    }
+
+    public PostAdPage clickServicesLink(){
+        this.servicesLink.click();
+        return this;
+    }
 
     public PostAdPage editAdTitleFiled(String titleOfChoice){
         this.adTitle.sendKeys(titleOfChoice);
@@ -61,6 +127,9 @@ public class PostAdPage {
         this.adTitlefield.sendKeys(description);
         return this;
     }
+
+
+
 
 
 

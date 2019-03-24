@@ -48,7 +48,7 @@ public class Karan_Signin extends DriverManager {
      * Updated on: MArch 18th, 2019
      * */
 
-    @Test(dependsOnMethods = {"siginInNoPswd"})
+    @Test
     public void getTheTextColor(){
         WebElement errorMsg = driver.findElement(By.xpath("//span[@class='field-message error']"));
         String textColor = errorMsg.getCssValue("color");
@@ -72,19 +72,22 @@ public class Karan_Signin extends DriverManager {
      * Updated by: Karan
      * Updated on: MArch 18th, 2019
      * */
-    @Test(dependsOnMethods = {"siginInNoPswd"})
+    @Test
     public void checkBoxIsNotSelected() {
         boolean checkBoxSelected = driver.findElement(By.id("login-rememberMe")).isSelected();
         Assert.assertEquals(checkBoxSelected, false, "FAIL: The checkbox was not unchecked");
     }
 
-    @AfterClass(dependsOnMethods = {"siginInNoPswd"})
+    @AfterClass
     public void closureActivities(){
 
         System.out.println("Deleting all the cookies");
         driver.manage().deleteAllCookies();
+        System.out.println("All cookies deleted");
+
         System.out.println("Closing all the windows");
         driver.quit();
+        System.out.println("All windows closed");
     }
 
 

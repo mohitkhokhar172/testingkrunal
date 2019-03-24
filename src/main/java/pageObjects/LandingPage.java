@@ -17,13 +17,22 @@ public class LandingPage {
     private WebElement registerButton;
 
 
-    @FindBy(linkText = "Post ad")
+    @FindBy(xpath = "//a[@title='Post ad']")
     private WebElement postAdBtn;
+
+    @FindBy(xpath = "//div[text() = 'A']")
+    private WebElement avatarIcon;
 
     public LandingPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    public LandingPage clickOnAvatar(){
+        this.avatarIcon.click();
+        return this;
+    }
+
 
 
     //Click on Signin button (This is the button on the top-right hand side) on the homepage
@@ -53,7 +62,7 @@ public class LandingPage {
 
     // This method pass the driver from Landing page to Post ad page for efficient chaining.
     public PostAdPage afterClickingPostAdBtn(){
-        this.postAdBtn.click();
+        //this.postAdBtn.click();
         return new PostAdPage(driver);
     }
 
