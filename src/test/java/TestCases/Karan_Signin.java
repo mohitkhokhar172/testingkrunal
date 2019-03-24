@@ -4,7 +4,6 @@ import driverManagement.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import pageObjects.LandingPage;
 import pageObjects.SigninPage;
@@ -21,7 +20,7 @@ public class Karan_Signin extends DriverManager {
      * Updated on: March 18th, 2019
      * */
     @Test
-    public void siginInNoPswd() {
+    public void a_siginInNoPswd() {
         getBrowser();
 
         LandingPage landingPage = new LandingPage(driver);
@@ -37,7 +36,7 @@ public class Karan_Signin extends DriverManager {
         WebElement errorMsg = driver.findElement(By.xpath("//span[@class='field-message error']"));
         String missingPasswordError = errorMsg.getText();
         Assert.assertEquals(missingPasswordError, "Please enter information above.", "Fail: The error message does not match");
-
+        System.out.println("Tc a passed");
     }
 
     /* TC6(B) --> signin without entering the password
@@ -49,7 +48,11 @@ public class Karan_Signin extends DriverManager {
      * */
 
     @Test
+<<<<<<< HEAD
     public void getTheTextColor(){
+=======
+    public void b_getTheTextColor(){
+>>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
         WebElement errorMsg = driver.findElement(By.xpath("//span[@class='field-message error']"));
         String textColor = errorMsg.getCssValue("color");
         String[] hexValue = textColor.replace("rgba(", "").replace(")", "").split(",");
@@ -63,6 +66,7 @@ public class Karan_Signin extends DriverManager {
         String actualColor = String.format("#%02x%02x%02x", hexValue1, hexValue2, hexValue3);
 
         Assert.assertEquals("#f1454f", actualColor, "FAIL: The text colour does not match");
+        System.out.println("Tc b passed");
     }
 
     /* TC6(C) --> signin without entering the password
@@ -73,19 +77,23 @@ public class Karan_Signin extends DriverManager {
      * Updated on: MArch 18th, 2019
      * */
     @Test
+<<<<<<< HEAD
     public void checkBoxIsNotSelected() {
+=======
+    public void c_checkBoxIsNotSelected() {
+>>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
         boolean checkBoxSelected = driver.findElement(By.id("login-rememberMe")).isSelected();
         Assert.assertEquals(checkBoxSelected, false, "FAIL: The checkbox was not unchecked");
+        System.out.println("Tc c passed");
+        closureActivities();
     }
 
+<<<<<<< HEAD
     @AfterClass
     public void closureActivities(){
+=======
+>>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
 
-        System.out.println("Deleting all the cookies");
-        driver.manage().deleteAllCookies();
-        System.out.println("Closing all the windows");
-        driver.quit();
-    }
 
 
 

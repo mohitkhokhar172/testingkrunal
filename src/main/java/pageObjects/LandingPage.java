@@ -4,26 +4,41 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.w3c.dom.html.HTMLInputElement;
 
 public class LandingPage {
 
+    public HTMLInputElement registerButton;
     WebDriver driver;
 
     @FindBy (xpath = "//a[@title='Sign In']")
     private WebElement signinButton;
 
 
+<<<<<<< HEAD
+    @FindBy(linkText = "Post ad")
+=======
     @FindBy (css= "[title=Register]")
     private WebElement registerButton;
 
 
-    @FindBy(linkText = "Post ad")
+    @FindBy(xpath = "//a[@title='Post ad']")
+>>>>>>> 5c744228ffc4042dbe9d8bd86cf44791f80482ab
     private WebElement postAdBtn;
+
+    @FindBy(xpath = "//div[text() = 'A']")
+    private WebElement avatarIcon;
 
     public LandingPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    public LandingPage clickOnAvatar(){
+        this.avatarIcon.click();
+        return this;
+    }
+
 
 
     //Click on Signin button (This is the button on the top-right hand side) on the homepage
@@ -53,9 +68,11 @@ public class LandingPage {
 
     // This method pass the driver from Landing page to Post ad page for efficient chaining.
     public PostAdPage afterClickingPostAdBtn(){
-        this.postAdBtn.click();
+        //this.postAdBtn.click();
         return new PostAdPage(driver);
     }
 
 
+    public void SelectButton() {
+    }
 }
