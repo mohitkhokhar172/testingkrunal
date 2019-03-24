@@ -21,70 +21,104 @@ public class SigninPage {
     @FindBy(xpath = "//button[@id='SignInButton']")
     private WebElement loginButton;
 
-    @FindBy (id = "LoginForgottenPassword")
+
+    @FindBy(id = "LoginForgottenPassword")
     private WebElement forgotPwButton;
 
-    @FindBy (id = "ResetPasswordEmail")
+    @FindBy(id = "ResetPasswordEmail")
     private WebElement resetPwEmail;
 
-    @FindBy (id = "Cancel")
+    @FindBy(id = "Cancel")
     private WebElement cancelbutton;
 
 
+    @FindBy(id = "LoginForgottenPassword")
+    WebElement frgPassBtn;
 
-    public SigninPage(WebDriver driver){
+
+    @FindBy(id = "ResetPasswordEmail")
+    WebElement frgPass;
+
+    @FindBy(id = "SendEmail")
+    WebElement btnSendEmail;
+
+    @FindBy(xpath = "//div[@class='root-2862412925']//ul//button[contains(text,'')]")
+    private WebElement logoutBtn;
+
+
+    public SigninPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
     //Enter the email address
-    public SigninPage enterEmail(String email){
+    public SigninPage enterEmail(String email) {
         this.emailAddressField.sendKeys(email);
         return this;
     }
 
     //Enter the password
-    public SigninPage enterPassword(String password){
+    public SigninPage enterPassword(String password) {
         this.passwordField.sendKeys(password);
         return this;
     }
 
     //Select/UnSelect the checkbox
-    public SigninPage clickCheckBox(){
+    public SigninPage clickCheckBox() {
         this.signInCheckBox.click();
         return this;
     }
 
     //Verify is the checkbox is checked or not
-    public SigninPage checkTheCheckBox(){
+    public SigninPage checkTheCheckBox() {
         this.signInCheckBox.isSelected();
         return this;
     }
 
     //Click on the Sigin-in button
-    public SigninPage clickLogin(){
+    public SigninPage clickLogin() {
         this.loginButton.click();
         return this;
     }
 
     //to click on forgot PW button
-    public  SigninPage clickForgotPw(){
-        this.forgotPwButton .click();
+    public SigninPage clickForgotPw() {
+        this.forgotPwButton.click();
         return this;
     }
 
     // to click on reset email box
-    public  SigninPage PwresetEmail (String Email){
+    public SigninPage PwresetEmail(String Email) {
         this.resetPwEmail.sendKeys(Email);
         return this;
 
     }
 
     // to click on cancel button
-    public SigninPage cancelButton (){
-        this.cancelbutton .click();
+    public SigninPage cancelButton() {
+        this.cancelbutton.click();
         return this;
 
     }
 
-}
+
+    public SigninPage clickForgotPwd() {
+        this.frgPassBtn.click();
+        return this;
+    }
+
+    public SigninPage clickOnSendEmail() {
+        if (frgPass.getText() != "") {
+            btnSendEmail.click();
+        }
+        return this;
+    }
+        //Click on Logout button
+
+        public SigninPage clickLogoutBtn () {
+            this.logoutBtn.click();
+            return this;
+        }
+
+    }
+

@@ -1,9 +1,12 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class PostAdPage {
@@ -17,27 +20,104 @@ public class PostAdPage {
     private WebElement nextBtn;
 
     @FindBy (id = "AdTitleForm")
-    WebElement adTitlefield;
+    private WebElement adTitlefield;
 
     @FindBy(xpath = "//span[@class='maxCharCountdown-2996436710']")
     WebElement spnCountChar;
 
     @FindBy(css = ".headerButtonPostAd-2493039301")
-    WebElement btnPsotAd;
+    WebElement btnPostAd;
+
+
+    @FindBy (xpath = "//div//li[5]")
+    WebElement services;
+
+    @FindBy(xpath = "//div//li[12]")
+    WebElement tutorLanguage;
+
+
+    @FindBy(xpath = "//*[text() = 'Services']")
+    private WebElement servicesLink;
+
+    @FindBy(xpath = "//*[text() = 'Tutors & Languages']")
+    private WebElement tutorAndLanguageLink;
+
+    @FindBy(id = "pstad-descrptn")
+    private WebElement descriptionField;
+
+    @FindBy(id = "pstad-map-address")
+    private WebElement addressField;
+
+    @FindBy(xpath = "//input[@name='postAdForm.phoneNumber']")
+    private WebElement phoneField;
+
+    @FindBy(xpath = "//button[@data-qa-id='package-0-bottom-select']")
+    private WebElement basicPackageBtn;
+
+    @FindBy(id = "PostAdPreview")
+    private WebElement previewBtn;
+
+//    @FindBy(xpath = "//div[@class='allCategoriesContainer-1722591519']")
+//    private List<WebElement> selectCatgories;
+
 
     @FindBy (xpath = "//*[text()='Services']")
      private WebElement selectServices;
 
 
-    @FindBy (xpath = "//*[text ()= 'tutors & Languages']")
-    public
-    WebElement selectTutorsNLanguage;
+    @FindBy (xpath = "//*[text ()= 'Tutors & Languages']")
+            //"//div//li[12]")
+
+    public WebElement selectTutorNLanguage;
 
 
 
     public PostAdPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
+    }
+
+//    public PostAdPage getAllCategories(){
+//        this.selectCatgories.getClass();
+//        return this;
+//    }
+
+    public PostAdPage enterDescription(String descriptionDetails){
+        this.descriptionField.sendKeys(descriptionDetails);
+        return this;
+    }
+
+
+    public PostAdPage enterAddress(String addressDetails){
+        this.addressField.sendKeys(addressDetails);
+        return this;
+    }
+
+    public PostAdPage enterPhoneNumber(String phonenumber){
+        this.phoneField.sendKeys(phonenumber);
+        return this;
+    }
+
+    public PostAdPage selectBasicPackage(){
+        this.basicPackageBtn.click();
+        return this;
+    }
+
+
+    public PostAdPage clickPreviewBtn(){
+        this.previewBtn.click();
+        return this;
+    }
+
+
+    public PostAdPage clickTutorAndLanguageLink(){
+        this.tutorAndLanguageLink.click();
+        return this;
+    }
+
+    public PostAdPage clickServicesLink(){
+        this.servicesLink.click();
+        return this;
     }
 
 
@@ -50,7 +130,7 @@ public class PostAdPage {
         try {
             Thread.sleep(5000);
             Assert.assertTrue(driver.getTitle().contains("Kijiji in Mississauga / Peel Region. - Buy, Sell & Save with Canada's #1 Local Classifieds."),"Page title has been matched");
-            btnPsotAd.click();
+            btnPostAd.click();
             this.adTitle.sendKeys(title);
             if(spnCountChar.isDisplayed()){
                 Assert.assertTrue(nextBtn.isEnabled() == false, "Invalid character length");
@@ -66,6 +146,18 @@ public class PostAdPage {
         this.nextBtn.click();
         return this;
     }
+    public void clickServices(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.services.click();
+    }
+
+    public void clickTutorLanguage(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.tutorLanguage.click();
+
+    }
 
     public PostAdPage enterDiscription (String description) {
         this.adTitlefield.sendKeys(description);
@@ -78,9 +170,12 @@ public class PostAdPage {
    }
 
     public PostAdPage selectTutorNLanguage (){
-      this. selectTutorsNLanguage.click();
+      this. selectTutorNLanguage.click();
      return this;
     }
+
+
+
 
 
 }

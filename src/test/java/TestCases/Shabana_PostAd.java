@@ -40,10 +40,9 @@ public class Shabana_PostAd extends DriverManager {
             driver.manage().window().maximize();
             WebElement obj1 = driver.findElement(By.xpath("//*[text()='Services']"));
             setWait(obj1);
-
             postAdPage.selectServices();
 
-            WebElement obj2 = driver.findElement(By.xpath("//*[text()='Tutors & Languages']"));
+            WebElement obj2 = driver.findElement(By.xpath("//* [text () = 'Tutors & Languages']"));
             setWait(obj2);
             postAdPage.selectTutorNLanguage();
 

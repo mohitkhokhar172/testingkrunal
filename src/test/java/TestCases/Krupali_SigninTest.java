@@ -36,7 +36,6 @@ public class Krupali_SigninTest extends DriverManager {
             WebElement errormsg=driver.findElement(By.xpath("//*[@class='field-message error']"));
             Assert.assertEquals(errormsg.getText(),"Please enter information above.","Error message is not matching");
 
-
         }
 
         @AfterSuite
