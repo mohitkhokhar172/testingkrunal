@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class PostAdPage {
@@ -23,8 +25,16 @@ public class PostAdPage {
     WebElement spnCountChar;
 
     @FindBy(css = ".headerButtonPostAd-2493039301")
-    WebElement btnPsotAd;
+    WebElement btnPostAd;
 
+<<<<<<< HEAD
+    @FindBy (xpath = "//div//li[5]")
+    WebElement services;
+
+    @FindBy(xpath = "//div//li[12]")
+    WebElement tutorLanguage;
+
+=======
     @FindBy(xpath = "//*[text() = 'Services']")
     private WebElement servicesLink;
 
@@ -49,6 +59,7 @@ public class PostAdPage {
 
 //    @FindBy(xpath = "//div[@class='allCategoriesContainer-1722591519']")
 //    private List<WebElement> selectCatgories;
+>>>>>>> 5c744228ffc4042dbe9d8bd86cf44791f80482ab
 
     public PostAdPage(WebDriver driver){
         this.driver = driver;
@@ -98,6 +109,7 @@ public class PostAdPage {
         return this;
     }
 
+
     public PostAdPage editAdTitleFiled(String titleOfChoice){
         this.adTitle.sendKeys(titleOfChoice);
         return this;
@@ -107,7 +119,7 @@ public class PostAdPage {
         try {
             Thread.sleep(5000);
             Assert.assertTrue(driver.getTitle().contains("Kijiji in Mississauga / Peel Region. - Buy, Sell & Save with Canada's #1 Local Classifieds."),"Page title has been matched");
-            btnPsotAd.click();
+            btnPostAd.click();
             this.adTitle.sendKeys(title);
             if(spnCountChar.isDisplayed()){
                 Assert.assertTrue(nextBtn.isEnabled() == false, "Invalid character length");
@@ -122,6 +134,18 @@ public class PostAdPage {
     public PostAdPage clickNextBtn(){
         this.nextBtn.click();
         return this;
+    }
+    public void clickServices(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.services.click();
+    }
+
+    public void clickTutorLanguage(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.tutorLanguage.click();
+
     }
 
     public PostAdPage enterDiscription (String description) {

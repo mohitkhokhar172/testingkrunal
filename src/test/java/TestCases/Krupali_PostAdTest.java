@@ -53,6 +53,10 @@ public class Krupali_PostAdTest extends DriverManager {
         WebElement sel_category=driver.findElement(By.xpath("//div/h3[@class='categoryListsHeader-2557181585']"));
         Assert.assertEquals(sel_category.getText(),"Select a category","Select category form is not appeared");
     }
+
+
+
+
     @AfterSuite
     public void endupExec(){
 

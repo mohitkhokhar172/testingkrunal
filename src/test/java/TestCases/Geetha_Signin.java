@@ -43,7 +43,7 @@ public class Geetha_Signin extends DriverManager {
 
     @AfterSuite
     public void closureActivities(){
-
+        System.out.println();
         System.out.println("Deleting all the cookies");
         driver.manage().deleteAllCookies();
         System.out.println("Closing all the windows");

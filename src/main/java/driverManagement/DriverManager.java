@@ -25,7 +25,7 @@ public class DriverManager {
 
     // Explicit wait method for visibility
     public void setWait(WebElement element) {
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 

@@ -48,7 +48,11 @@ public class Karan_Signin extends DriverManager {
      * */
 
     @Test
+<<<<<<< HEAD
+    public void getTheTextColor(){
+=======
     public void b_getTheTextColor(){
+>>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
         WebElement errorMsg = driver.findElement(By.xpath("//span[@class='field-message error']"));
         String textColor = errorMsg.getCssValue("color");
         String[] hexValue = textColor.replace("rgba(", "").replace(")", "").split(",");
@@ -73,13 +77,22 @@ public class Karan_Signin extends DriverManager {
      * Updated on: MArch 18th, 2019
      * */
     @Test
+<<<<<<< HEAD
+    public void checkBoxIsNotSelected() {
+=======
     public void c_checkBoxIsNotSelected() {
+>>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
         boolean checkBoxSelected = driver.findElement(By.id("login-rememberMe")).isSelected();
         Assert.assertEquals(checkBoxSelected, false, "FAIL: The checkbox was not unchecked");
         System.out.println("Tc c passed");
         closureActivities();
     }
 
+<<<<<<< HEAD
+    @AfterClass
+    public void closureActivities(){
+=======
+>>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
 
 
 
