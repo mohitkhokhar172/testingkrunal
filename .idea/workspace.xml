@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25649db7-1cd5-4ebb-9b53-33416e767db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/Dipti_SignIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/Krina_PostAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/Krina_Signin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Krupali_SigninTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Krupali_SigninTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SigninPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/SigninPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/project_kijiji.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Geetha_Signin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/Geetha_Signin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_PostAd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_PostAd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_Signin.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="322">
               <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
             </state>
           </provider>
@@ -87,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+            <state relative-caret-position="175">
+              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -108,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
       </list>
     </option>
   </component>
@@ -119,6 +96,11 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-6" />
+    <option name="width" value="1347" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -206,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553465843716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553467461633" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -316,15 +298,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -398,17 +380,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        <state relative-caret-position="322">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
         </state>
       </provider>
     </entry>

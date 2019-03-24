@@ -66,8 +66,6 @@ public class PostAdPage {
 
 
     @FindBy (xpath = "//*[text ()= 'Tutors & Languages']")
-            //"//div//li[12]")
-
     public WebElement selectTutorNLanguage;
 
 
