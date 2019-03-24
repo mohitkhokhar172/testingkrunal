@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import java.io.FileInputStream;
 import java.util.Properties;
@@ -44,6 +46,18 @@ public class DriverManager {
 
     }
 
+    // A method for deleting all the ccookies and closing the window
+    public void closureActivities(){
+
+        System.out.println("Deleting all the cookies");
+        driver.manage().deleteAllCookies();
+        System.out.println("All cookies deleted");
+
+        System.out.println("Closing all the windows");
+        driver.close();
+        System.out.println("All windows closed");
+    }
+
     // Open browser method
     public WebDriver getBrowser() {
 
@@ -52,10 +66,9 @@ public class DriverManager {
             FileInputStream fis = new FileInputStream("data.properties");
             Properties prop = new Properties();
             prop.load(fis);
-
             String browser = prop.getProperty("browser");
             String chromePath = prop.getProperty("chromePath");
-            String firefoxPath = prop.getProperty("firefoxPath");
+            String firefoxPath = prop.getProperty("fi   refoxPath");
             String internetExplorerPath = prop.getProperty("internetExplorerPath");
 
 
@@ -78,12 +91,13 @@ public class DriverManager {
             driver.manage().timeouts().implicitlyWait(10, SECONDS);
             driver.get("https://www.kijiji.ca/");
             driver.manage().window().maximize();
-            driver.manage().deleteAllCookies();
         } catch (Exception ex){
             ex.getMessage();
         }
         return driver;
     }
+
+
 
 
 

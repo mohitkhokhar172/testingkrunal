@@ -111,7 +111,6 @@ public class Karan_PostAd extends DriverManager {
         }
 
 
-
         WebElement tutorLanguageLink = driver.findElement(By.xpath("//*[text() = 'Tutors & Languages']"));
         postAdPage.enterDiscription("Description goes here!!!")
                 .enterPhoneNumber("6479054166")
