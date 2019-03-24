@@ -23,6 +23,7 @@ public class DriverManager {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
+
     // Open browser method
     public WebDriver getBrowser() {
 

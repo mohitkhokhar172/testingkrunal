@@ -25,6 +25,16 @@ public class PostAdPage {
     @FindBy(css = ".headerButtonPostAd-2493039301")
     WebElement btnPsotAd;
 
+    @FindBy (xpath = "//*[text()='Services']")
+     private WebElement selectServices;
+
+
+    @FindBy (xpath = "//*[text ()= 'tutors & Languages']")
+    public
+    WebElement selectTutorsNLanguage;
+
+
+
     public PostAdPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -62,6 +72,15 @@ public class PostAdPage {
         return this;
     }
 
+    public PostAdPage selectServices(){
+      this.selectServices .click();
+     return this;
+   }
+
+    public PostAdPage selectTutorNLanguage (){
+      this. selectTutorsNLanguage.click();
+     return this;
+    }
 
 
 }

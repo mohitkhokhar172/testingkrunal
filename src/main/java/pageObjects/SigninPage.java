@@ -21,6 +21,16 @@ public class SigninPage {
     @FindBy(xpath = "//button[@id='SignInButton']")
     private WebElement loginButton;
 
+    @FindBy (id = "LoginForgottenPassword")
+    private WebElement forgotPwButton;
+
+    @FindBy (id = "ResetPasswordEmail")
+    private WebElement resetPwEmail;
+
+    @FindBy (id = "Cancel")
+    private WebElement cancelbutton;
+
+
 
     public SigninPage(WebDriver driver){
         this.driver = driver;
@@ -55,6 +65,26 @@ public class SigninPage {
     public SigninPage clickLogin(){
         this.loginButton.click();
         return this;
+    }
+
+    //to click on forgot PW button
+    public  SigninPage clickForgotPw(){
+        this.forgotPwButton .click();
+        return this;
+    }
+
+    // to click on reset email box
+    public  SigninPage PwresetEmail (String Email){
+        this.resetPwEmail.sendKeys(Email);
+        return this;
+
+    }
+
+    // to click on cancel button
+    public SigninPage cancelButton (){
+        this.cancelbutton .click();
+        return this;
+
     }
 
 }
