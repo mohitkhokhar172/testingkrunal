@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 public class AddDetailsPage {
 
@@ -25,19 +24,14 @@ public class AddDetailsPage {
         @FindBy (xpath = "//div/input[@class='add-asterisk']")
         public WebElement Ad_details_title;
 
-        @FindBy (xpath = "//div[@class='form-section']//span[@class='field-message error']")
-        private WebElement validationMessage;
+
 
         public AddDetailsPage(WebDriver driver){
             this.driver=driver;
             PageFactory.initElements(driver,this);
         }
 
-        public AddDetailsPage validateErrorMsg(){
-            String validationMessage = this.validationMessage.getText();
-            Assert.assertEquals(validationMessage, "Please enter information above.", "Error: The validation message does not match");
-            return this;
-        }
+
 
         public pageObjects.AddDetailsPage chnageCategory_click(){
             this.Change_category.click();

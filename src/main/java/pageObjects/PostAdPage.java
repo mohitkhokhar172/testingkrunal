@@ -43,8 +43,9 @@ public class PostAdPage {
     @FindBy(xpath = "//button[@data-qa-id='package-0-bottom-select']")
     private WebElement basicPackageBtn;
 
-    @FindBy(css = "#PostAdPreview")
+    @FindBy(xpath = "//*[text()='Preview']")
     private WebElement previewBtn;
+
 
 //    @FindBy(xpath = "//div[@class='allCategoriesContainer-1722591519']")
 //    private List<WebElement> selectCatgories;
@@ -127,6 +128,8 @@ public class PostAdPage {
         this.descriptionField.sendKeys(description);
         return this;
     }
+
+
 
 
 

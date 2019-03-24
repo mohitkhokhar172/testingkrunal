@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="310994de-b71b-40d5-87a2-98fbd4f0c596" name="Default Changelist" comment="Created third_party exe folder and given path in data.properties file and that path is in fileinput stream. Added signin and postad testcase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_PostAd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_PostAd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_Signin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_Signin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_PostAd.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,10 +28,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+            <state relative-caret-position="146">
+              <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="128">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+            <state relative-caret-position="182">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="125" column="22" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,9 +131,9 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
         <option value="$PROJECT_DIR$/TestNG.xml" />
         <option value="$PROJECT_DIR$/Karan.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" />
       </list>
     </option>
@@ -237,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553451755571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553466742185" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_kijiji2/project_kijiji" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -261,18 +261,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Karan_PostAd.PriviewAdWitoutAddress">
-    <configuration name="C:/project_kijiji/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Karan_PostAd.PriviewAdWitoutAddress (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Karan_PostAd.priviewAdWitoutAddress">
+    <configuration name="Karan_PostAd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
@@ -282,15 +272,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
-      <option name="METHOD_NAME" value="PriviewAdWitoutAddress" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Karan_PostAd.PriviewAdWitoutAddress (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Karan_PostAd.PriviewAdWitoutAddress (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
@@ -326,7 +314,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Karan_Signin.siginInNoPswd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Karan_PostAd.postAdMin8chars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
@@ -335,8 +323,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_Signin" />
-      <option name="METHOD_NAME" value="siginInNoPswd" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
+      <option name="METHOD_NAME" value="postAdMin8chars" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Karan_PostAd.priviewAdWitoutAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
+      <option name="METHOD_NAME" value="priviewAdWitoutAddress" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -346,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Karan_PostAd.priviewAdWitoutAddress" />
+        <item itemvalue="TestNG.Karan_PostAd" />
+        <item itemvalue="TestNG.Karan_PostAd.postAdMin8chars" />
         <item itemvalue="TestNG.Karan_PostAd.PriviewAdWitoutAddress" />
-        <item itemvalue="TestNG.Karan_PostAd.PriviewAdWitoutAddress (3)" />
-        <item itemvalue="TestNG.C:/project_kijiji/TestNG.xml" />
-        <item itemvalue="TestNG.Karan_Signin.siginInNoPswd" />
-        <item itemvalue="TestNG.Karan_PostAd.PriviewAdWitoutAddress (2)" />
+        <item itemvalue="TestNG.Karan_PostAd.PriviewAdWitoutAddress (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -368,35 +374,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 15m 27s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd - 2019.03.24 at 17h 13m 45s.xml">
+      <configuration name="Karan_PostAd" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 24m 16s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 17h 16m 32s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 29m 47s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 17h 19m 01s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 33m 16s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 17h 45m 52s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 37m 21s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 17h 51m 42s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 40m 13s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 18h 07m 53s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 40m 14s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 18h 11m 43s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 50m 34s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 18h 17m 48s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 13h 59m 39s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 18h 21m 33s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_PriviewAdWitoutAddress - 2019.03.24 at 14h 20m 40s.xml">
-      <configuration name="Karan_PostAd.PriviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 18h 24m 43s.xml">
+      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -415,8 +421,8 @@
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.62193125" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.38625205" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.7348609" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.5188216" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -757,27 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="593" selection-start-line="593" selection-end-line="593" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="70" column="56" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -796,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="128">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -806,8 +795,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="125" column="22" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+        <state relative-caret-position="198">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -816,10 +822,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="121" column="25" selection-start-line="121" selection-start-column="25" selection-end-line="121" selection-end-column="25" />
+        <state relative-caret-position="146">
+          <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
           </folding>
         </state>
       </provider>
