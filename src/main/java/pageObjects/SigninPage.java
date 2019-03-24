@@ -21,6 +21,8 @@ public class SigninPage {
     @FindBy(xpath = "//button[@id='SignInButton']")
     private WebElement loginButton;
 
+    @FindBy(id = "LoginForgottenPassword")
+    WebElement frgPassBtn;
 
     public SigninPage(WebDriver driver){
         this.driver = driver;
@@ -54,6 +56,11 @@ public class SigninPage {
     //Click on the Sigin-in button
     public SigninPage clickLogin(){
         this.loginButton.click();
+        return this;
+    }
+
+    public SigninPage clickForgotPwd(){
+        this.frgPassBtn.click();
         return this;
     }
 
