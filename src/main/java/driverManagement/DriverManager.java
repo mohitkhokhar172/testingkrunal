@@ -19,7 +19,7 @@ public class DriverManager {
 
     // Explicit wait method
     public void setWait(WebElement element) {
-        wait = new WebDriverWait(driver, 20);
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
@@ -56,6 +56,7 @@ public class DriverManager {
             }
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.get("https://www.kijiji.ca/");
+            driver.manage().window().maximize();
         } catch (Exception ex){
             ex.getMessage();
         }

@@ -21,40 +21,49 @@ public class SigninPage {
     @FindBy(xpath = "//button[@id='SignInButton']")
     private WebElement loginButton;
 
+    @FindBy(xpath = "//div[@class='root-2862412925']//ul//button[contains(text,'')]")
+    private WebElement logoutBtn;
 
-    public SigninPage(WebDriver driver){
+
+    public SigninPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
     //Enter the email address
-    public SigninPage enterEmail(String email){
+    public SigninPage enterEmail(String email) {
         this.emailAddressField.sendKeys(email);
         return this;
     }
 
     //Enter the password
-    public SigninPage enterPassword(String password){
+    public SigninPage enterPassword(String password) {
         this.passwordField.sendKeys(password);
         return this;
     }
 
     //Select/UnSelect the checkbox
-    public SigninPage clickCheckBox(){
+    public SigninPage clickCheckBox() {
         this.signInCheckBox.click();
         return this;
     }
 
     //Verify is the checkbox is checked or not
-    public SigninPage checkTheCheckBox(){
+    public SigninPage checkTheCheckBox() {
         this.signInCheckBox.isSelected();
         return this;
     }
 
     //Click on the Sigin-in button
-    public SigninPage clickLogin(){
+    public SigninPage clickLogin() {
         this.loginButton.click();
         return this;
     }
 
+    //Click on Logout button
+
+    public SigninPage  clickLogoutBtn() {
+        this.logoutBtn.click();
+        return this;
+    }
 }

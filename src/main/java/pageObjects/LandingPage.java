@@ -4,17 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.w3c.dom.html.HTMLInputElement;
 
 public class LandingPage {
 
+    public HTMLInputElement registerButton;
     WebDriver driver;
 
     @FindBy (xpath = "//a[@title='Sign In']")
     private WebElement signinButton;
-
-
-    @FindBy (css= "[title=Register]")
-    private WebElement registerButton;
 
 
     @FindBy(linkText = "Post ad")
@@ -58,4 +56,6 @@ public class LandingPage {
     }
 
 
+    public void SelectButton() {
+    }
 }

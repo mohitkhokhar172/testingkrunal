@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class PostAdPage {
@@ -25,10 +27,18 @@ public class PostAdPage {
     @FindBy(css = ".headerButtonPostAd-2493039301")
     WebElement btnPsotAd;
 
+    @FindBy (xpath = "//div//li[5]")
+    WebElement services;
+
+    @FindBy(xpath = "//div//li[12]")
+    WebElement tutorLanguage;
+
+
     public PostAdPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
 
 
     public PostAdPage editAdTitleFiled(String titleOfChoice){
@@ -55,6 +65,18 @@ public class PostAdPage {
     public PostAdPage clickNextBtn(){
         this.nextBtn.click();
         return this;
+    }
+    public void clickServices(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.services.click();
+    }
+
+    public void clickTutorLanguage(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.tutorLanguage.click();
+
     }
 
     public PostAdPage enterDiscription (String description) {
