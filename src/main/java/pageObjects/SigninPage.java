@@ -24,6 +24,12 @@ public class SigninPage {
     @FindBy(id = "LoginForgottenPassword")
     WebElement frgPassBtn;
 
+    @FindBy(id = "ResetPasswordEmail")
+    WebElement frgPass;
+
+    @FindBy(id = "SendEmail")
+    WebElement btnSendEmail;
+
     public SigninPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -64,4 +70,10 @@ public class SigninPage {
         return this;
     }
 
+    public SigninPage clickOnSendEmail(){
+        if(frgPass.getText() != "") {
+            btnSendEmail.click();
+        }
+        return this;
+    }
 }

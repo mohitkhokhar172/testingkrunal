@@ -23,7 +23,7 @@ public class PostAdPage {
     WebElement spnCountChar;
 
     @FindBy(css = ".headerButtonPostAd-2493039301")
-    WebElement btnPsotAd;
+    WebElement btnPostAd;
 
     public PostAdPage(WebDriver driver){
         this.driver = driver;
@@ -40,7 +40,7 @@ public class PostAdPage {
         try {
             Thread.sleep(5000);
             Assert.assertTrue(driver.getTitle().contains("Kijiji in Mississauga / Peel Region. - Buy, Sell & Save with Canada's #1 Local Classifieds."),"Page title has been matched");
-            btnPsotAd.click();
+            btnPostAd.click();
             this.adTitle.sendKeys(title);
             if(spnCountChar.isDisplayed()){
                 Assert.assertTrue(nextBtn.isEnabled() == false, "Invalid character length");
