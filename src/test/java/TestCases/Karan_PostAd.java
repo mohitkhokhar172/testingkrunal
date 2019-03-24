@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import pageObjects.AddDetailsPage;
 import pageObjects.LandingPage;
 import pageObjects.PostAdPage;
 import pageObjects.SigninPage;
@@ -17,6 +18,7 @@ public class Karan_PostAd extends DriverManager {
     LandingPage landingPage;
     SigninPage signinPage;
     PostAdPage postAdPage;
+    AddDetailsPage addDetailsPage;
 
 
     /*
@@ -91,34 +93,42 @@ public class Karan_PostAd extends DriverManager {
         for(int i = 0; i<numberOfCategories;i++){
             String currentCategory = selectACategory.get(i).getText();
             if(currentCategory.equals("Services")){
-                postAdPage.clickServicesLink();
+                selectACategory.get(i).click();
+                break;
             }
         }
 
+        System.out.println("Clicked on Services link");
 
-        WebElement selectServiceCat = driver.findElement(By.xpath("//ul[@class='categoryList-1515474558']"));
-        List<WebElement> cats = selectCatgoriesSection.findElements(By.xpath("//li[@class='categoryListItem-3123839590']"));
+        WebElement subCategorySection = driver.findElement(By.xpath("//ul[@class='categoryList-1515474558']"));
+        List<WebElement> allCategories = subCategorySection.findElements(By.xpath("//li[@class='categoryListItem-3123839590']"));
 
-        int allCat = cats.size();
+        int totalNumberOfCategories = allCategories.size();
 
-        for(int i = 0; i<allCat;i++){
-            WebElement currentElement = cats.get(i);
+        for(int i = 0; i<totalNumberOfCategories;i++){
+            WebElement currentElement = allCategories.get(i);
             setClickableWait(currentElement);
             String currentCategory = currentElement.getText();
             if(currentCategory.equals("Tutors & Languages")){
-                postAdPage.clickTutorAndLanguageLink();
+                allCategories.get(i).click();
+                break;
             }
         }
+        System.out.println("Clicked on -T and L- link");
 
 
-        WebElement tutorLanguageLink = driver.findElement(By.xpath("//*[text() = 'Tutors & Languages']"));
+        //WebElement tutorLanguageLink = driver.findElement(By.xpath("//*[text() = 'Tutors & Languages']"));
+        WebElement descriptionFiled = driver.findElement(By.id("pstad-descrptn"));
+        setClickableWait(descriptionFiled);
         postAdPage.enterDiscription("Description goes here!!!")
                 .enterPhoneNumber("6479054166")
-                .selectBasicPackage()
-                .clickPreviewBtn();
+                .selectBasicPackage();
+        WebElement previewBtn = driver.findElement(By.cssSelector("#PostAdPreview"));
+                postAdPage.clickPreviewBtn();
+        System.out.println("Preview button clicked");
 
-
-
+        addDetailsPage = new AddDetailsPage(driver);
+        addDetailsPage.validateErrorMsg();
 
 
 
