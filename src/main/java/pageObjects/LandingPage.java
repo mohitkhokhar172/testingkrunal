@@ -66,7 +66,7 @@ public class LandingPage {
 
     // This method pass the driver from Landing page to Post ad page for efficient chaining.
     public PostAdPage afterClickingPostAdBtn(){
-        //this.postAdBtn.click();
+        this.postAdBtn.click();
         return new PostAdPage(driver);
     }
 

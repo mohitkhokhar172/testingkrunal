@@ -31,11 +31,18 @@ public class AddDetailsPage {
             PageFactory.initElements(driver,this);
         }
 
+    public WebElement getAd_details(){
+        return  this.Ad_details;
+    }
+
+    public WebElement getChange_category(){
+        return this.Change_category;
+    }
 
 
-        public pageObjects.AddDetailsPage chnageCategory_click(){
+        public ChangeCategoryPage chnageCategory_click(){
             this.Change_category.click();
-            return this;
+            return new ChangeCategoryPage(driver);
         }
 
     }

@@ -69,7 +69,11 @@ public class PostAdPage {
     @FindBy (xpath = "//*[text ()= 'Tutors & Languages']")
     public WebElement selectTutorNLanguage;
 
+    @FindBy(xpath="//*[text()='Services']/parent::button")
+    private WebElement _services;
 
+    @FindBy(xpath = "//*[text()='Tutors & Languages']/parent::button")
+    private WebElement _tutorLanguage;
 
     public PostAdPage(WebDriver driver){
         this.driver = driver;
@@ -172,6 +176,27 @@ public class PostAdPage {
       this. selectTutorNLanguage.click();
      return this;
     }
+    public WebElement getServices(){
+
+        return this._services;
+    }
+
+    public PostAdPage ClickServices(){
+        this._services.click();
+        return this;
+    }
+
+
+
+    public  WebElement getTutorLanguage(){
+        return this._tutorLanguage;
+    }
+
+    public AddDetailsPage ClickTutorLanguage(){
+        this._tutorLanguage.click();
+        return new AddDetailsPage(driver);
+    }
+
 
 
 
