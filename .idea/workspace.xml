@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25649db7-1cd5-4ebb-9b53-33416e767db1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_Signin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Shabana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +27,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-727">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5044#5045#0" expanded="true" />
+                <element signature="e#5086#5087#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -39,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
+            <state relative-caret-position="-91">
               <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,24 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-              <folding>
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -82,8 +89,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
       </list>
     </option>
   </component>
@@ -177,7 +187,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553558136542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553571197131" />
     <property name="last_opened_file_path" value="$USER_HOME$/Kijiji_proj" />
   </component>
   <component name="RunDashboard">
@@ -192,7 +202,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Karan_PostAd.priviewAdWitoutAddress">
+  <component name="RunManager" selected="TestNG.Geetha_PostAd.selectRadioBtn">
+    <configuration name="Geetha_PostAd.AdTitle_8symbols" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Geetha_PostAd" />
+      <option name="METHOD_NAME" value="AdTitle_8symbols" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geetha_PostAd.selectRadioBtn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.Geetha_PostAd" />
+      <option name="METHOD_NAME" value="selectRadioBtn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Karan_PostAd.postAdMin8chars" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
@@ -247,47 +293,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shabana_PostAd.Ad_title" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Shabana_PostAd" />
-      <option name="METHOD_NAME" value="Ad_title" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Shabana_Signin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Shabana_Signin" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Geetha_PostAd.selectRadioBtn" />
+        <item itemvalue="TestNG.Geetha_PostAd.AdTitle_8symbols" />
         <item itemvalue="TestNG.Karan_PostAd.priviewAdWitoutAddress" />
         <item itemvalue="TestNG.Karan_PostAd.postAdMin8chars" />
         <item itemvalue="TestNG.Krina_PostAd.add_Title" />
-        <item itemvalue="TestNG.Shabana_Signin" />
-        <item itemvalue="TestNG.Shabana_PostAd.Ad_title" />
       </list>
     </recent_temporary>
   </component>
@@ -305,35 +317,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Shabana_PostAd_Ad_title - 2019.03.24 at 18h 04m 34s.xml">
-      <configuration name="Shabana_PostAd.Ad_title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_selectRadioBtn - 2019.03.25 at 22h 48m 39s.xml">
+      <configuration name="Geetha_PostAd.selectRadioBtn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Shabana_PostAd_Ad_title - 2019.03.24 at 18h 05m 41s.xml">
-      <configuration name="Shabana_PostAd.Ad_title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_selectRadioBtn - 2019.03.25 at 22h 53m 07s.xml">
+      <configuration name="Geetha_PostAd.selectRadioBtn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Shabana_PostAd_Ad_title - 2019.03.24 at 18h 08m 34s.xml">
-      <configuration name="Shabana_PostAd.Ad_title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_AdTitle_8symbols - 2019.03.25 at 22h 56m 18s.xml">
+      <configuration name="Geetha_PostAd.AdTitle_8symbols" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Shabana_PostAd_Ad_title - 2019.03.24 at 18h 10m 28s.xml">
-      <configuration name="Shabana_PostAd.Ad_title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_AdTitle_8symbols - 2019.03.25 at 23h 06m 33s.xml">
+      <configuration name="Geetha_PostAd.AdTitle_8symbols" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Shabana_PostAd_Ad_title - 2019.03.24 at 18h 15m 46s.xml">
-      <configuration name="Shabana_PostAd.Ad_title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_AdTitle_8symbols - 2019.03.25 at 23h 10m 30s.xml">
+      <configuration name="Geetha_PostAd.AdTitle_8symbols" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Shabana_PostAd_Ad_title - 2019.03.24 at 19h 01m 02s.xml">
-      <configuration name="Shabana_PostAd.Ad_title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_AdTitle_8symbols - 2019.03.25 at 23h 14m 10s.xml">
+      <configuration name="Geetha_PostAd.AdTitle_8symbols" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Shabana_PostAd_Ad_title_(1) - 2019.03.24 at 19h 03m 14s.xml">
-      <configuration name="Shabana_PostAd.Ad_title (1)" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_AdTitle_8symbols - 2019.03.25 at 23h 17m 17s.xml">
+      <configuration name="Geetha_PostAd.AdTitle_8symbols" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Krina_PostAd_add_Title - 2019.03.24 at 23h 30m 45s.xml">
-      <configuration name="Krina_PostAd.add_Title" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_selectRadioBtn - 2019.03.25 at 23h 21m 29s.xml">
+      <configuration name="Geetha_PostAd.selectRadioBtn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_postAdMin8chars - 2019.03.24 at 23h 34m 21s.xml">
-      <configuration name="Karan_PostAd.postAdMin8chars" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_selectRadioBtn - 2019.03.25 at 23h 26m 01s.xml">
+      <configuration name="Geetha_PostAd.selectRadioBtn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Karan_PostAd_priviewAdWitoutAddress - 2019.03.24 at 23h 38m 11s.xml">
-      <configuration name="Karan_PostAd.priviewAdWitoutAddress" configurationId="TestNG" />
+    <history-entry file="Geetha_PostAd_selectRadioBtn - 2019.03.25 at 23h 33m 08s.xml">
+      <configuration name="Geetha_PostAd.selectRadioBtn" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -345,15 +357,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.39609236" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.396072" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32733223" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.497545" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.497545" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -418,24 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_Signin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -446,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krina_PostAd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -460,16 +451,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1955">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
+        <state relative-caret-position="-289">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
+        <state relative-caret-position="-91">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -477,24 +486,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="103" column="52" selection-start-line="103" selection-start-column="52" selection-end-line="103" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5044#5045#0" expanded="true" />
+            <element signature="e#5086#5087#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
-          <folding>
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>

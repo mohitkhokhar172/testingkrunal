@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -36,13 +37,15 @@ public class PostAdPage {
     WebElement tutorLanguage;
 
 
+
+
     @FindBy(xpath = "//*[text() = 'Services']")
     private WebElement servicesLink;
 
     @FindBy(xpath = "//*[text() = 'Tutors & Languages']")
     private WebElement tutorAndLanguageLink;
 
-    @FindBy(id = "pstad-descrptn")
+    @FindBy(id = "AdTitleForm")
     private WebElement descriptionField;
 
     @FindBy(id = "pstad-map-address")
@@ -74,6 +77,12 @@ public class PostAdPage {
 
     @FindBy(xpath = "//*[text()='Tutors & Languages']/parent::button")
     private WebElement _tutorLanguage;
+
+    //    WebElements by Geetha
+
+    @FindBy (xpath = "//div//ul[2]//li[12]")
+    private WebElement TutorsAndLanguages;
+
 
     public PostAdPage(WebDriver driver){
         this.driver = driver;
@@ -163,6 +172,8 @@ public class PostAdPage {
     }
 
     public PostAdPage enterDiscription (String description) {
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.descriptionField));
         this.descriptionField.sendKeys(description);
         return this;
     }
@@ -192,15 +203,23 @@ public class PostAdPage {
         return this._tutorLanguage;
     }
 
-    public AddDetailsPage ClickTutorLanguage(){
-        this._tutorLanguage.click();
-        return new AddDetailsPage(driver);
+//    public AddDetailsPage ClickTutorLanguage(){
+//        this._tutorLanguage.click();
+//        return new AddDetailsPage(driver);
+//    }
+
+
+//    Method to click Tutors and Languages
+
+    public PostAdPage clickTandL() {
+
+        Actions actions = new Actions(driver);
+        actions.moveToElement(TutorsAndLanguages).build().perform();
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.TutorsAndLanguages));
+        this.TutorsAndLanguages.click();
+        return this;
     }
-
-
-
-
-
 
 
 
