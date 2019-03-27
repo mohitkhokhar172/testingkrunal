@@ -151,9 +151,13 @@ public class PostAdPage {
     }
 
     public PostAdPage enterInvalidAdTitle(String title){
+        try {
             btnPostAd.click();
             Thread.sleep(2000);
             adTitle.sendKeys(title);
+        }
+        catch (Exception e) {
+        }
         return this;
     }
 
