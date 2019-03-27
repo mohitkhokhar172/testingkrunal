@@ -13,70 +13,59 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import pageObjects.*;
 
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 public class Krupali_PostAdTest extends DriverManager {
 
-    // this is the method to sign in with valid credentials
-    public void valid_signin(){
-        LandingPage landingPage=new LandingPage(driver);
-        landingPage.clickOnSignin();
-        SigninPage signinPage=new SigninPage(driver);
-        signinPage.enterEmail("kselproj.2019@gmail.com")
-                .enterPassword("Kselproj2019*")
-                .clickCheckBox()
-                .checkTheCheckBox()
-                .clickLogin();
-    }
-    public void valid_adtitle(){
-        LandingPage landingPage=new LandingPage(driver);
-        PostAdPage postAdPage=landingPage.afterClickingPostAdBtn();
-        postAdPage.editAdTitleFiled("QA Automation");
-        postAdPage.clickNextBtn();
-    }
-
-
     @BeforeSuite
-    public void setup(){
+    public void Setup(){
         getBrowser();
         driver.manage().window().maximize();
     }
 
-    // test method for adding title with combination of nums and symbols
-    @Test
-    public void Adtitle_numsym8char(){
-
-
-        valid_signin();
-        WebElement signedin_user = (new WebDriverWait(driver, 30)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='root-46216517 color-red-432684940 avatar-26778576']")));
-
-        String user = signedin_user.getText();
-        Assert.assertEquals(user, "A", "Login for posting ad is invalid");
-
+    public String GetAuthenticatedUser()
+    {
+        SigninPage signinPage =  new SigninPage(driver);
+        signinPage.ValidateSignin();
 
         LandingPage landingPage=new LandingPage(driver);
+
+        setWaitUntilVisibilityOfElementLocated(landingPage.authenticatedUserButtonXpath);
+
+        return landingPage.getAuthenticatedUserButton().getText();
+    }
+    // test method for adding title with combination of nums and symbols
+    @Test
+    public void ValidateAddTitleWithNumberSymbol(){
+
+        LandingPage landingPage=new LandingPage(driver);
+
+       Assert.assertEquals(GetAuthenticatedUser(), "A", "Login for posting ad is invalid");
+
         PostAdPage postAdPage=landingPage.afterClickingPostAdBtn();
         postAdPage.editAdTitleFiled("1111****")
-                .clickNextBtn();
-        WebElement sel_category=driver.findElement(By.xpath("//div/h3[@class='categoryListsHeader-2557181585']"));
-        Assert.assertEquals(sel_category.getText(),"Select a category","Select category form is not appeared");
+                .clickNextBtn().getSelectCategory();
+
+        Assert.assertEquals(postAdPage.getSelectCategory().getText(),"Select a category","Select category form is not appeared");
     }
 
     @Test
     public void addetail_changecategory(){
-        valid_signin();
 
-        WebElement signedin_user = (new WebDriverWait(driver, 10)).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@aria-label='Navigation menu button']")));
+        // To check login is valid or not
+        LandingPage landingPage=new LandingPage(driver);
+        Assert.assertEquals(GetAuthenticatedUser(), "A", "Login for posting ad is invalid");
 
-        String user = signedin_user.getText();
-        Assert.assertEquals(user, "A", "Login for posting ad is invalid");
-
-        valid_adtitle();
+        // To check cateogry after adding title
         PostAdPage postAdPage = new PostAdPage(driver);
+        postAdPage.ValidateAddTitle();
+        Assert.assertEquals(postAdPage.getSelectCategory().getText(),"Select a category","Select category form is not appeared");
 
-
+        // To click on Serivces
         if(postAdPage.getServices().isDisplayed()) {
 
-            WebDriverWait wait = new WebDriverWait(driver, 30);
-            wait.until(ExpectedConditions.elementToBeClickable(postAdPage.getServices()));
+            setClickableWait(postAdPage.getServices());
             postAdPage.ClickServices();
 
         }else{
@@ -84,29 +73,20 @@ public class Krupali_PostAdTest extends DriverManager {
         }
 
 
-        JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeScript("window.scrollBy(0,600)", "");
+    //to click on tutor and languages
+      int totalNumberOfCategories = postAdPage.getAllCategories().size();
 
-
-        try {
-
-            Thread.sleep(1000);
+        setWait(postAdPage.getTutorLanguage());
+        for (int i = 0; i < totalNumberOfCategories; i++) {
+            WebElement currentElement = postAdPage.getAllCategories().get(i);
+            setClickableWait(currentElement);
+            String currentCategory = currentElement.getText();
+            if (currentCategory.equals("Tutors & Languages")) {
+                postAdPage.getAllCategories().get(i).click();
+                break;
+            }
         }
-        catch (Exception ex)
-        {
-
-        }
-
-
-        if(postAdPage.getTutorLanguage().isDisplayed()) {
-
-            Actions actions=new Actions(driver);
-            actions.moveToElement(postAdPage.getTutorLanguage()).click().build().perform();
-
-        }else{
-            System.out.println("Tutors & Languages not found on PostAd Page");
-        }
-
+        System.out.println("clicked on Tutor and Languages");
 
         AddDetailsPage addDetailsPage=new AddDetailsPage(driver);
         setWait(addDetailsPage.getAd_details());
@@ -117,8 +97,6 @@ public class Krupali_PostAdTest extends DriverManager {
         }else{
             System.out.println("Not on Ad Details Page");
         }
-
-
 
         ChangeCategoryPage changeCategoryPage=addDetailsPage.chnageCategory_click();
 

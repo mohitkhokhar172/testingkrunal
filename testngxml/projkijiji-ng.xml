@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="KijijiiTestcases" verbose="1" >
+    <test name="Functional Testing"   >
+        <classes>
+            <class name="TestCases.Shabana_Signin"></class>
+            <class name="TestCases.Krina_Signin"></class>
+            <class name="TestCases.Geetha_Signin"></class>
+            <class name="TestCases.Dipti_SignIn"></class>
+            <class name="TestCases.Krupali_SigninTest"></class>
+        </classes>
+    </test>
+</suite>

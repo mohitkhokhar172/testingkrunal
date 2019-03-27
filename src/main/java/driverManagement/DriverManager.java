@@ -1,5 +1,6 @@
 package driverManagement;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,6 +30,11 @@ public class DriverManager {
         wait.until(ExpectedConditions.visibilityOf(element));
         wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public void setWaitUntilVisibilityOfElementLocated(String xPath) {
+        wait = (new WebDriverWait(driver, 30));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPath)));
     }
 
     // Explicit wait method for clickable

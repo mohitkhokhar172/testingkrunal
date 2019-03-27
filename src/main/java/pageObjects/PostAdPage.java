@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.util.List;
+
 public class PostAdPage {
 
     WebDriver driver;
@@ -36,8 +38,8 @@ public class PostAdPage {
     @FindBy(xpath = "//div//li[12]")
     WebElement tutorLanguage;
 
-
-
+    @FindBy(xpath = "//div/h3[@class='categoryListsHeader-2557181585']")
+    WebElement selectCategory;
 
     @FindBy(xpath = "//*[text() = 'Services']")
     private WebElement servicesLink;
@@ -78,10 +80,19 @@ public class PostAdPage {
     @FindBy(xpath = "//*[text()='Tutors & Languages']/parent::button")
     private WebElement _tutorLanguage;
 
+    @FindBy(xpath="//ul[@class='categoryList-1515474558']")
+    private WebElement subCategorySection;
+
+    @FindBy(xpath="//li[@class='categoryListItem-3123839590']")
+    private List<WebElement> allCategories;
+
+
     //    WebElements by Geetha
 
     @FindBy (xpath = "//div//ul[2]//li[12]")
     private WebElement TutorsAndLanguages;
+
+
 
 
     public PostAdPage(WebDriver driver){
@@ -89,10 +100,11 @@ public class PostAdPage {
         PageFactory.initElements(driver, this);
     }
 
-//    public PostAdPage getAllCategories(){
-//        this.selectCatgories.getClass();
-//        return this;
-//    }
+    public void ValidateAddTitle(){
+        LandingPage landingPage=new LandingPage(driver);
+        landingPage.afterClickingPostAdBtn();
+        this.editAdTitleFiled("QA Automation").clickNextBtn();
+    }
 
     public PostAdPage enterDescription(String descriptionDetails){
         this.descriptionField.sendKeys(descriptionDetails);
@@ -192,12 +204,21 @@ public class PostAdPage {
         return this._services;
     }
 
+    public WebElement getSelectCategory(){
+
+        return this.selectCategory;
+    }
+
     public PostAdPage ClickServices(){
         this._services.click();
         return this;
     }
-
-
+    public WebElement getSubCategorySection(){
+        return this.subCategorySection;
+    }
+    public List <WebElement> getAllCategories(){
+        return this.allCategories;
+    }
 
     public  WebElement getTutorLanguage(){
         return this._tutorLanguage;
