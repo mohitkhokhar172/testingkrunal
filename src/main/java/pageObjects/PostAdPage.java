@@ -7,6 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.w3c.dom.html.HTMLInputElement;
+
+import java.util.List;
 
 public class PostAdPage {
 
@@ -27,14 +30,13 @@ public class PostAdPage {
     @FindBy(css = ".headerButtonPostAd-2493039301")
     WebElement btnPostAd;
 
-<<<<<<< HEAD
-    @FindBy (xpath = "//div//li[5]")
+  @FindBy (xpath = "//div//li[5]")
     WebElement services;
 
     @FindBy(xpath = "//div//li[12]")
     WebElement tutorLanguage;
 
-=======
+
     @FindBy(xpath = "//*[text() = 'Services']")
     private WebElement servicesLink;
 
@@ -56,19 +58,22 @@ public class PostAdPage {
     @FindBy(id = "PostAdPreview")
     private WebElement previewBtn;
 
-//    @FindBy(xpath = "//div[@class='allCategoriesContainer-1722591519']")
-//    private List<WebElement> selectCatgories;
->>>>>>> 5c744228ffc4042dbe9d8bd86cf44791f80482ab
+    @FindBy(xpath="//div//label[@class='radio-button-rd']")
+    public WebElement Checkbox;
+
+    @FindBy(xpath = "//div[@class='allCategoriesContainer-1722591519']")
+  private List<WebElement> selectCatgories;
+
 
     public PostAdPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-//    public PostAdPage getAllCategories(){
-//        this.selectCatgories.getClass();
-//        return this;
-//    }
+    public PostAdPage getAllCategories(){
+        this.selectCatgories.getClass();
+        return this;
+    }
 
     public PostAdPage enterDescription(String descriptionDetails){
         this.descriptionField.sendKeys(descriptionDetails);
@@ -145,6 +150,12 @@ public class PostAdPage {
         wait.until(ExpectedConditions.elementToBeClickable(this.services));
         this.tutorLanguage.click();
 
+    }
+
+    public void selectCheckbox(){
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(this.services));
+        this.Checkbox.click();
     }
 
     public PostAdPage enterDiscription (String description) {

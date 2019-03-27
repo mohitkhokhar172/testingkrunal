@@ -19,15 +19,16 @@ public class Krina_Signin extends DriverManager {
         getBrowser();
 
     }
-    /* TC1 signin with valid email id and password
+    /* TC1 signin with valid email id and password-->
+    problem : when i only run logout testcase it is running successfully but when i run whole code it willnot successfully logout\
+    but all testcases passes true
      */
-
     @Test
     public void signIn_ValidEmail() {
 
         LandingPage landingPage = new LandingPage(driver);
         landingPage.clickOnSignin();
-        SigninPage SP = new SigninPage(driver);
+        SigninPage SP=new SigninPage(driver);
         SP.enterEmail("kselproj.2019@gmail.com")
                 .enterPassword("Kselproj2019*")
                 .clickLogin();
@@ -58,9 +59,6 @@ public class Krina_Signin extends DriverManager {
 //        }
 
     }
-
-
-
 
     @AfterSuite
     public void closureActivities() {

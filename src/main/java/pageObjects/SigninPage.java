@@ -21,19 +21,18 @@ public class SigninPage {
     @FindBy(xpath = "//button[@id='SignInButton']")
     private WebElement loginButton;
 
-<<<<<<< HEAD
+
     @FindBy(id = "LoginForgottenPassword")
-    WebElement frgPassBtn;
+    private WebElement frgPassBtn;
 
     @FindBy(id = "ResetPasswordEmail")
-    WebElement frgPass;
+    private WebElement frgPass;
 
     @FindBy(id = "SendEmail")
-    WebElement btnSendEmail;
-=======
+    private WebElement btnSendEmail;
+
     @FindBy(xpath = "//div[@class='root-2862412925']//ul//button[contains(text,'')]")
     private WebElement logoutBtn;
->>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
 
 
     public SigninPage(WebDriver driver) {
@@ -71,22 +70,24 @@ public class SigninPage {
         return this;
     }
 
-<<<<<<< HEAD
-    public SigninPage clickForgotPwd(){
+
+    public SigninPage clickForgotPwd() {
         this.frgPassBtn.click();
         return this;
     }
 
-    public SigninPage clickOnSendEmail(){
-        if(frgPass.getText() != "") {
+    public SigninPage clickOnSendEmail() {
+        if (frgPass.getText() != "") {
             btnSendEmail.click();
-        }
-=======
-    //Click on Logout button
 
-    public SigninPage  clickLogoutBtn() {
-        this.logoutBtn.click();
->>>>>>> 059c57c5d0ddb5b90807da7875929e041d2cda1b
+        }
         return this;
     }
-}
+        //Click on Logout button
+
+        public SigninPage clickLogoutBtn() {
+            this.logoutBtn.click();
+
+            return this;
+        }
+    }
