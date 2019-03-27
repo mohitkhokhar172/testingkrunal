@@ -120,5 +120,15 @@ public class SigninPage {
             return this;
         }
 
+    public void ValidateSignin(){
+        LandingPage landingPage=new LandingPage(driver);
+        landingPage.afterClickOnSignin();
+        this.enterEmail("kselproj.2019@gmail.com")
+                .enterPassword("Kselproj2019*")
+                .clickCheckBox()
+                .checkTheCheckBox()
+                .clickLogin();
+    }
+
     }
 

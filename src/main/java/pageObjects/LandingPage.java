@@ -8,12 +8,16 @@ import org.w3c.dom.html.HTMLInputElement;
 
 public class LandingPage {
 
+    public static final String authenticatedUserButtonXpath = "//button[@aria-label='Navigation menu button']";
+
+    @FindBy(xpath = authenticatedUserButtonXpath)
+    private WebElement authenticatedUserButton;
+
     public HTMLInputElement registerButton;
     WebDriver driver;
 
     @FindBy (xpath = "//a[@title='Sign In']")
     private WebElement signinButton;
-
 
 
 
@@ -27,6 +31,7 @@ public class LandingPage {
     @FindBy(xpath = "//div[text() = 'A']")
     private WebElement avatarIcon;
 
+
     public LandingPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -36,8 +41,6 @@ public class LandingPage {
         this.avatarIcon.click();
         return this;
     }
-
-
 
     //Click on Signin button (This is the button on the top-right hand side) on the homepage
     public LandingPage clickOnSignin(){
@@ -72,5 +75,10 @@ public class LandingPage {
 
 
     public void SelectButton() {
+    }
+
+    public WebElement getAuthenticatedUserButton(){
+
+        return this.authenticatedUserButton;
     }
 }
