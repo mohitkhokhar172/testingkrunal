@@ -13,6 +13,8 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +22,8 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class DriverManager {
 
-    public  WebDriver driver;
+    public static WebDriver driver;
+    private static Properties properties;
     public WebDriverWait wait;
     public Wait<WebElement> fluentWait;
 
@@ -67,44 +70,93 @@ public class DriverManager {
 
 
     // Open browser method
-    public WebDriver getBrowser() {
+//    public WebDriver getBrowser() {
+//
+//        try {
+//
+//            FileInputStream fis = new FileInputStream("data.properties");
+//            Properties prop = new Properties();
+//            prop.load(fis);
+//            String browser = prop.getProperty("browser");
+//            String chromePath = prop.getProperty("chromePath");
+//            String firefoxPath = prop.getProperty("fi   refoxPath");
+//            String internetExplorerPath = prop.getProperty("internetExplorerPath");
+//
+//
+//            if (browser.equals("chrome")) {
+//                System.setProperty("webdriver.chrome.driver", chromePath);
+//                driver = new ChromeDriver();
+//
+//            } else if (browser.equals("firefox")) {
+//                System.setProperty("webdriver.gecko.driver", firefoxPath);
+//                driver = new FirefoxDriver();
+//
+//            } else if (browser.equals("internetexplorer")) {
+//                System.setProperty("webdriver.ie.driver", internetExplorerPath);
+//                driver = new InternetExplorerDriver();
+//
+//            } else {
+//                System.out.println("The browser can either be chrome, firefox or ie only");
+//
+//            }
+//            driver.manage().timeouts().implicitlyWait(10, SECONDS);
+//            driver.get("https://www.kijiji.ca/");
+//            driver.manage().window().maximize();
+//        } catch (Exception ex){
+//            ex.getMessage();
+//        }
+//        return driver;
+//    }
 
-        try {
 
-            FileInputStream fis = new FileInputStream("data.properties");
-            Properties prop = new Properties();
-            prop.load(fis);
-            String browser = prop.getProperty("browser");
-            String chromePath = prop.getProperty("chromePath");
-            String firefoxPath = prop.getProperty("fi   refoxPath");
-            String internetExplorerPath = prop.getProperty("internetExplorerPath");
+    /** Modified Driver Manager File By Dipti **/
 
-
-            if (browser.equals("chrome")) {
-                System.setProperty("webdriver.chrome.driver", chromePath);
-                driver = new ChromeDriver();
-
-            } else if (browser.equals("firefox")) {
-                System.setProperty("webdriver.gecko.driver", firefoxPath);
-                driver = new FirefoxDriver();
-
-            } else if (browser.equals("internetexplorer")) {
-                System.setProperty("webdriver.ie.driver", internetExplorerPath);
-                driver = new InternetExplorerDriver();
-
-            } else {
-                System.out.println("The browser can either be chrome, firefox or ie only");
-
-            }
-            driver.manage().timeouts().implicitlyWait(10, SECONDS);
-            driver.get("https://www.kijiji.ca/");
-            driver.manage().window().maximize();
-        } catch (Exception ex){
-            ex.getMessage();
-        }
-        return driver;
+    public static void getBrowser(){
+        driver = Create(BrowserType.Chrome);
+        driver.get("https://www.kijiji.ca/");
+        driver.manage().window().maximize();
     }
 
+    public static WebDriver Create(BrowserType browserType) {
+        switch (browserType) {
+            case Ie:
+                return GetIEDriver();
+            case Chrome:
+                return GetChromeDriver();
+            case FireFox:
+                return GetFirefoxDriver();
+            default:
+                throw new NoSuchElementException("No such browser found");
+        }
+    }
+
+    public static String getProperty(String key) {
+        try
+        {
+            if(properties == null) {
+                properties = new Properties();
+                FileInputStream fileInputStream = new FileInputStream("data.properties");
+                properties.load(fileInputStream);
+            }
+        }
+        catch (IOException io){}
+        return properties.get(key).toString();
+    }
+
+    private static WebDriver GetChromeDriver(){
+        System.setProperty("webdriver.chrome.driver", getProperty("chromePath"));
+        return new ChromeDriver();
+    }
+
+    private static WebDriver GetFirefoxDriver(){
+        System.setProperty("webdriver.chrome.driver", getProperty("firefoxPath"));
+        return new FirefoxDriver();
+    }
+
+    private static WebDriver GetIEDriver(){
+        System.setProperty("webdriver.chrome.driver", getProperty("internetExplorerPath"));
+        return new InternetExplorerDriver();
+    }
 
 
 
