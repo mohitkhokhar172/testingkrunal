@@ -47,7 +47,6 @@ public class Shabana_Signin extends DriverManager {
     //4. Enter registred email id
     //5.  click cancel
 
-
     @Test
     public void CancelForgotPw(){
             try {
