@@ -67,7 +67,7 @@ public class Dipti_PostAd extends DriverManager {
             System.out.println("Next button has been clicked");
 
         } catch (Exception exec) {
-            System.out.println("Test is Failed, Post Ad Title contains minimum 8 character!");
+            System.out.println("Test is Failed!");
         }
     }
 
@@ -89,7 +89,10 @@ public class Dipti_PostAd extends DriverManager {
             Assert.assertTrue(txtAdTitle.getText() != "", "Post Ad Title is not blank");
 
             if (txtAdTitle.getText() != "") {
-                postAdPage.enterDescription("Enter description here!");
+
+                WebElement txtDescription = driver.findElement(By.id("pstad-descrptn"));
+                setWait(txtDescription);
+                txtDescription.sendKeys("\"Enter description here!\"");
                 Select location = new Select(driver.findElement(By.id("locationLevel0")));
                 location.selectByVisibleText("Mississauga / Peel Region");
                 WebElement txtAddress = driver.findElement(By.id("pstad-map-address"));
