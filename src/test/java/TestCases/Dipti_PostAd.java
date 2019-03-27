@@ -1,6 +1,7 @@
 package TestCases;
 
 import driverManagement.DriverManager;
+import listeners.ScreenshotListeners;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,15 +14,16 @@ import pageObjects.SigninPage;
 
 import java.util.List;
 
+@Listeners(ScreenshotListeners.class)
 public class Dipti_PostAd extends DriverManager {
     PostAdPage postAdPage;
-    public static WebDriver _driver;
 
     @Test
     public void validLogin() {
         try {
             getBrowser();
             LandingPage landingPage = new LandingPage(driver);
+            Thread.sleep(1000);
             landingPage.clickOnSignin();
             SigninPage signIn = new SigninPage(driver);
             signIn.enterEmail("kselproj.2019@gmail.com")
