@@ -25,17 +25,19 @@ public class DriverManager {
 
     // Explicit wait method for visibility
     public void setWait(WebElement element) {
+        wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.visibilityOf(element));
         wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     // Explicit wait method for clickable
     public void setClickableWait(WebElement element) {
-        wait = new WebDriverWait(driver, 40);
+        wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    // Fluent wait method for clickable
+    // Fluent wait method for stale element
     public void setFluentWait(WebElement element) {
         fluentWait = new FluentWait<WebElement>(element)
                 .withTimeout(30, TimeUnit.SECONDS)
@@ -43,6 +45,7 @@ public class DriverManager {
                 .ignoring(StaleElementReferenceException.class);
 
     }
+
 
     // A method for deleting all the ccookies and closing the window
     public void closureActivities(){
@@ -55,6 +58,7 @@ public class DriverManager {
         driver.close();
         System.out.println("All windows closed");
     }
+
 
     // Open browser method
     public WebDriver getBrowser() {

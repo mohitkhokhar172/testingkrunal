@@ -48,7 +48,13 @@
 //     * */
 //
 //    @Test
+
 //    public void getTheTextColor(){
+
+//
+//    public void getTheTextColor(){
+//
+
 //    public void b_getTheTextColor(){
 //
 //        WebElement errorMsg = driver.findElement(By.xpath("//span[@class='field-message error']"));
@@ -86,13 +92,19 @@
 //        closureActivities();
 //    }
 //
+
 //
+
 //    @AfterClass
 //    public void closureActivities(){
 //
 //
 //
 //
+
 //
 //
 //}
+
+//}
+

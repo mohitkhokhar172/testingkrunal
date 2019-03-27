@@ -23,13 +23,26 @@ public class SigninPage {
 
 
     @FindBy(id = "LoginForgottenPassword")
+    private WebElement forgotPwButton;
+
+    @FindBy(id = "ResetPasswordEmail")
+    private WebElement resetPwEmail;
+
+    @FindBy(id = "Cancel")
+    private WebElement cancelbutton;
+
+
+    @FindBy(id = "LoginForgottenPassword")
     private WebElement frgPassBtn;
+
 
     @FindBy(id = "ResetPasswordEmail")
     private WebElement frgPass;
 
     @FindBy(id = "SendEmail")
     private WebElement btnSendEmail;
+    //WebElement btnSendEmail;
+
 
     @FindBy(xpath = "//div[@class='root-2862412925']//ul//button[contains(text,'')]")
     private WebElement logoutBtn;
@@ -71,6 +84,27 @@ public class SigninPage {
     }
 
 
+    //to click on forgot PW button
+    public SigninPage clickForgotPw() {
+        this.forgotPwButton.click();
+        return this;
+    }
+
+    // to click on reset email box
+    public SigninPage PwresetEmail(String Email) {
+        this.resetPwEmail.sendKeys(Email);
+        return this;
+
+    }
+
+    // to click on cancel button
+    public SigninPage cancelButton() {
+        this.cancelbutton.click();
+        return this;
+
+    }
+
+
     public SigninPage clickForgotPwd() {
         this.frgPassBtn.click();
         return this;
@@ -79,15 +113,28 @@ public class SigninPage {
     public SigninPage clickOnSendEmail() {
         if (frgPass.getText() != "") {
             btnSendEmail.click();
-
         }
         return this;
     }
-        //Click on Logout button
 
-        public SigninPage clickLogoutBtn() {
-            this.logoutBtn.click();
 
-            return this;
-        }
-    }
+    //Click on Logout button
+
+
+//    public SigninPage clickLogoutBtn() {
+//        this.logoutBtn.click();
+//
+//        return this;
+//    }
+//
+//
+//
+//
+//    public SigninPage clickLogoutBtn() {
+//        this.logoutBtn.click();
+//        return this;
+//    }
+
+}
+
+

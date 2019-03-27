@@ -2,8 +2,11 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AddDetailsPage {
 
@@ -24,15 +27,53 @@ public class AddDetailsPage {
         @FindBy (xpath = "//div/input[@class='add-asterisk']")
         public WebElement Ad_details_title;
 
-        public AddDetailsPage(WebDriver driver){
+    //    WebElements by Geetha
+
+    @FindBy (xpath = "//div//ul[2]//li[12]")
+    private WebElement TutorsAndLanguages;
+
+
+    @FindBy(xpath = "//label[@for='adType1'  and @class='radio-button-rd']")
+    private WebElement offeringRadioButton;
+
+
+    @FindBy(xpath="//label[@for='adType2'  and @class='radio-button-rd']")
+    private WebElement wantedRadioButton;
+
+
+
+    public AddDetailsPage(WebDriver driver){
             this.driver=driver;
             PageFactory.initElements(driver,this);
         }
 
-        public pageObjects.AddDetailsPage chnageCategory_click(){
+    public WebElement getAd_details(){
+        return  this.Ad_details;
+    }
+
+    public WebElement getChange_category(){
+        return this.Change_category;
+    }
+
+
+        public ChangeCategoryPage chnageCategory_click(){
             this.Change_category.click();
-            return this;
+            return new ChangeCategoryPage(driver);
         }
+
+
+
+    //    Method to click offering radio button
+
+    public AddDetailsPage selectRadioBtn(){
+        if (!offeringRadioButton.isSelected()){
+            offeringRadioButton.click();
+        }
+        if(!wantedRadioButton.isSelected()){
+            wantedRadioButton.click();
+        }
+        return this;
+    }
 
     }
 

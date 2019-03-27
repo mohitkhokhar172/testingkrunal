@@ -4,8 +4,10 @@ import driverManagement.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pageObjects.AddDetailsPage;
 import pageObjects.LandingPage;
 import pageObjects.PostAdPage;
 import pageObjects.SigninPage;
@@ -17,6 +19,7 @@ public class Karan_PostAd extends DriverManager {
     LandingPage landingPage;
     SigninPage signinPage;
     PostAdPage postAdPage;
+    AddDetailsPage addDetailsPage;
 
 
     /*
@@ -24,7 +27,7 @@ public class Karan_PostAd extends DriverManager {
     * It is a common sign-in method that can be called when required to sign-inCreated by: Karan
     * Created on: March 18th, 2019
     * */
-    @BeforeTest
+    @BeforeMethod
     public void signinSuccessfully() {
         getBrowser();
         landingPage = new LandingPage(driver);
@@ -36,6 +39,12 @@ public class Karan_PostAd extends DriverManager {
                 .clickLogin();
     }
 
+    @AfterMethod
+    public void closeIt(){
+        closureActivities();
+    }
+
+
     /* TC3 --> Title of the advertisment with exactly 8 characters
      * Description: Validate that the minimum number of characters accepted are 8. The next button will be disabled
      * if the characters are less than 8.
@@ -46,6 +55,7 @@ public class Karan_PostAd extends DriverManager {
      * */
     @Test
     public void postAdMin8chars(){
+        System.out.println("TC1 - STARTED");
         WebElement avatar = driver.findElement(By.xpath("//div[text() = 'A']"));
         while(!avatar.isDisplayed()){
             signinPage.enterEmail("kselproj.2019@gmail.com")
@@ -70,57 +80,90 @@ public class Karan_PostAd extends DriverManager {
             Assert.assertTrue(NextBtnIsEnabled, "true");
             setWait(NxtBtn);
             postAdPage.clickNextBtn();
+            System.out.println("TC1 - ENDED");
 
     }
 
+    @Test
+    public void priviewAdWitoutAddress() {
+        System.out.println("TC2 - STARTED");
+        try {
+            postAdMin8chars();
+            Thread.sleep(10);
+            WebElement text = driver.findElement(By.xpath("//*[text() = 'Select a category']"));
+            setFluentWait(text);
+            String expectedText = text.getText();
+            Assert.assertEquals(expectedText, "Select a category", "Error: The text does not exist");
 
-    @Test(dependsOnMethods = "postAdMin8chars")
-    public void PriviewAdWitoutAddress(){
-        System.out.println("Starting TestCase 3");
+            WebElement selectCatgoriesSection = driver.findElement(By.xpath("//div[@class='allCategoriesContainer-1722591519']"));
+            List<WebElement> selectACategory = selectCatgoriesSection.findElements(By.xpath("//li[@class='categoryListItem-3123839590']"));
 
-        WebElement text = driver.findElement(By.xpath("//*[text() = 'Select a category']"));
-        setFluentWait(text);
-        String expectedText = text.getText();
-        Assert.assertEquals(expectedText, "Select a category", "Error: The text does not exist");
+            int numberOfCategories = selectACategory.size();
 
-        WebElement selectCatgoriesSection = driver.findElement(By.xpath("//div[@class='allCategoriesContainer-1722591519']"));
-        List<WebElement> selectACategory = selectCatgoriesSection.findElements(By.xpath("//li[@class='categoryListItem-3123839590']"));
-
-        int numberOfCategories = selectACategory.size();
-
-        for(int i = 0; i<numberOfCategories;i++){
-            String currentCategory = selectACategory.get(i).getText();
-            if(currentCategory.equals("Services")){
-                postAdPage.clickServicesLink();
+            for (int i = 0; i < numberOfCategories; i++) {
+                String currentCategory = selectACategory.get(i).getText();
+                if (currentCategory.equals("Services")) {
+                    selectACategory.get(i).click();
+                    break;
+                }
             }
-        }
 
+            System.out.println("Clicked on Services link");
 
-        WebElement selectServiceCat = driver.findElement(By.xpath("//ul[@class='categoryList-1515474558']"));
-        List<WebElement> cats = selectCatgoriesSection.findElements(By.xpath("//li[@class='categoryListItem-3123839590']"));
+            WebElement subCategorySection = driver.findElement(By.xpath("//ul[@class='categoryList-1515474558']"));
+            List<WebElement> allCategories = subCategorySection.findElements(By.xpath("//li[@class='categoryListItem-3123839590']"));
 
-        int allCat = cats.size();
+            int totalNumberOfCategories = allCategories.size();
 
-        for(int i = 0; i<allCat;i++){
-            WebElement currentElement = cats.get(i);
-            setClickableWait(currentElement);
-            String currentCategory = currentElement.getText();
-            if(currentCategory.equals("Tutors & Languages")){
-                postAdPage.clickTutorAndLanguageLink();
+            WebElement tutorLanguageLink = driver.findElement(By.xpath("//*[text() = 'Tutors & Languages']"));
+            setWait(tutorLanguageLink);
+            for (int i = 0; i < totalNumberOfCategories; i++) {
+                WebElement currentElement = allCategories.get(i);
+                setClickableWait(currentElement);
+                String currentCategory = currentElement.getText();
+                if (currentCategory.equals("Tutors & Languages")) {
+                    allCategories.get(i).click();
+                    break;
+                }
             }
+            System.out.println("Clicked on -T and L- link");
+
+            WebElement descriptionFiled = driver.findElement(By.id("pstad-descrptn"));
+            setClickableWait(descriptionFiled);
+            postAdPage.enterDescription("Description goes here!!!")
+                    .enterPhoneNumber("6479054166")
+                    .selectBasicPackage();
+
+            WebElement postButtonsSection = driver.findElement(By.cssSelector("#mainPageContent"));
+            List<WebElement> buttons= postButtonsSection.findElements(By.tagName("button"));
+            int totalButtons = postButtonsSection.findElements(By.tagName("button")).size();
+            System.out.println(totalButtons);
+
+            for (int i = 0; i <totalButtons; i++){
+                String currentButton = buttons.get(i).getText();
+                Thread.sleep(100);
+                if(currentButton.trim().equalsIgnoreCase("Preview")){
+                    buttons.get(i).click();
+                    break;
+                }
+            }
+
+
+            WebElement validationMsg = (driver.findElement(By.xpath("//*[text() = 'Please fix the errors on the page']")));
+            setWait(validationMsg);
+            if(validationMsg.isDisplayed()) {
+                System.out.println("The below message is displayed on the screen");
+                String getMsg = driver.findElement(By.xpath("//*[text() = 'Please enter information above.']")).getText();
+                System.out.println("######" + getMsg + "######");
+                Assert.assertEquals(getMsg, "Please enter information above.", "Error: The validation message does not match");
+                System.out.println("Validated the error message sucessfully!!");
+            }else{
+                System.out.println("The message is NOT displayed on the screen");
+            }
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
         }
-
-
-        WebElement tutorLanguageLink = driver.findElement(By.xpath("//*[text() = 'Tutors & Languages']"));
-        postAdPage.enterDiscription("Description goes here!!!")
-                .enterPhoneNumber("6479054166")
-                .selectBasicPackage()
-                .clickPreviewBtn();
-
-
-
-
-
+        System.out.println("TC2 - ENDED");
 
     }
 }

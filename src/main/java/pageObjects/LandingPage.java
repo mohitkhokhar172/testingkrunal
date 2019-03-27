@@ -14,6 +14,14 @@ public class LandingPage {
     @FindBy (xpath = "//a[@title='Sign In']")
     private WebElement signinButton;
 
+
+
+
+    //@FindBy (css= "[title=Register]")
+    //private WebElement registerButton;
+
+
+
     @FindBy(xpath = "//a[@title='Post ad']")
     private WebElement postAdBtn;
 
@@ -59,7 +67,7 @@ public class LandingPage {
 
     // This method pass the driver from Landing page to Post ad page for efficient chaining.
     public PostAdPage afterClickingPostAdBtn(){
-        //this.postAdBtn.click();
+        this.postAdBtn.click();
         return new PostAdPage(driver);
     }
 
