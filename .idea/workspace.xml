@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e53b98-7cd6-4b37-999a-29a407895010" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Valid_TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Dipti_PostAd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Dipti_SignIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Krina_PostAd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Krina_Signin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Krupali_SigninTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/Shabana_Signin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Geetha_PostAd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Geetha_Signin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/Karan_PostAd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,44 +38,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Valid_TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+            <state relative-caret-position="1199">
+              <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AdTitle_8symbols#0;class#PostAd_Valid_TestCases#0" />
+                <element signature="method#selectRadioBtn#0;class#PostAd_Valid_TestCases#0" />
+                <element signature="method#add_Title#0;class#PostAd_Valid_TestCases#0" />
+                <element signature="method#selectCheckbox#0;class#PostAd_Valid_TestCases#0" />
+                <element signature="method#GetAuthenticatedUser#0;class#PostAd_Valid_TestCases#0" />
+                <element signature="method#addetail_changecategory#0;class#PostAd_Valid_TestCases#0" />
+                <element signature="method#Ad_title#0;class#PostAd_Valid_TestCases#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="153" column="13" lean-forward="true" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+            <state relative-caret-position="423">
+              <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
               <folding>
-                <element signature="e#5732#5733#0" expanded="true" />
-                <element signature="e#5778#5779#0" expanded="true" />
-                <element signature="e#5827#5828#0" expanded="true" />
-                <element signature="e#5868#5869#0" expanded="true" />
-                <element signature="e#5912#5913#0" expanded="true" />
-                <element signature="e#5954#5955#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#tc3_postAdWithoutPhoneNo#0;class#PostAd_Invalid_TestCases#0" />
+                <element signature="method#priviewAdWitoutAddress#0;class#PostAd_Invalid_TestCases#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Dipti_PostAd.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
-              <folding>
-                <element signature="method#validTitle#0;class#Dipti_PostAd#0" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,26 +104,44 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Krina_PostAd.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Shabana_Signin.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Dipti_PostAd.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Geetha_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Karan_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krupali_SigninTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Shabana_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krina_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" />
+        <option value="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Dipti_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Geetha_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Karan_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krina_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krupali_PostAdTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invakid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Shabana_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Valid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
-    <option name="width" value="814" />
-    <option name="height" value="438" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,6 +153,43 @@
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driverManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
@@ -125,20 +215,63 @@
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="PostAd_TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn_TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
+              <item name="pass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="testngxml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553722042099" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553741365055" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kajijiproject" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SeleniumProject\project_kijiji\src\test\java\TestCases\SignIn_TestCase" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,17 +285,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Dipti_PostAd.postAdWithoutPhoneNo">
+  <component name="RunManager" selected="TestNG.PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo">
     <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.SignIn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Dipti_PostAd" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.Dipti_PostAd" />
       <option name="METHOD_NAME" value="postAdWithoutPhoneNo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -171,17 +304,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dipti_PostAd.validLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostAd_Invalid_TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Dipti_PostAd" />
-      <option name="METHOD_NAME" value="validLogin" />
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Invalid_TestCases" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Invalid_TestCases" />
+      <option name="METHOD_NAME" value="tc2_postAdWithoutPhoneNo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -189,17 +338,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dipti_PostAd.validTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostAd_Invalid_TestCases.tc3_postAdWithoutPhoneNo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Dipti_PostAd" />
-      <option name="METHOD_NAME" value="validTitle" />
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Invalid_TestCases" />
+      <option name="METHOD_NAME" value="tc3_postAdWithoutPhoneNo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -207,34 +356,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Krina_PostAd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostAd_Valid_TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Krina_PostAd" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Krina_PostAd.selectCheckbox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project_kijiji" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCases" />
-      <option name="MAIN_CLASS_NAME" value="TestCases.Krina_PostAd" />
-      <option name="METHOD_NAME" value="selectCheckbox" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Valid_TestCases" />
       <properties />
       <listeners />
       <method v="2">
@@ -243,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" />
+        <item itemvalue="TestNG.PostAd_Invalid_TestCases.tc3_postAdWithoutPhoneNo" />
+        <item itemvalue="TestNG.PostAd_Invalid_TestCases" />
+        <item itemvalue="TestNG.PostAd_Valid_TestCases" />
         <item itemvalue="TestNG.Dipti_PostAd.postAdWithoutPhoneNo" />
-        <item itemvalue="TestNG.Dipti_PostAd.validTitle" />
-        <item itemvalue="TestNG.Dipti_PostAd.validLogin" />
-        <item itemvalue="TestNG.Krina_PostAd.selectCheckbox" />
-        <item itemvalue="TestNG.Krina_PostAd" />
       </list>
     </recent_temporary>
   </component>
@@ -265,21 +396,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Dipti_PostAd_validTitle - 2019.03.27 at 17h 08m 07s.xml">
-      <configuration name="Dipti_PostAd.validTitle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Dipti_PostAd_validTitle - 2019.03.27 at 17h 09m 28s.xml">
-      <configuration name="Dipti_PostAd.validTitle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 10m 50s.xml">
-      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 12m 35s.xml">
-      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 15m 04s.xml">
-      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 15m 49s.xml">
       <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
     </history-entry>
@@ -295,12 +411,27 @@
     <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 24m 05s.xml">
       <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 31m 30s.xml">
+      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Valid_TestCases - 2019.03.27 at 22h 40m 01s.xml">
+      <configuration name="PostAd_Valid_TestCases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases - 2019.03.27 at 22h 43m 14s.xml">
+      <configuration name="PostAd_Invalid_TestCases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases_tc3_postAdWithoutPhoneNo - 2019.03.27 at 22h 46m 25s.xml">
+      <configuration name="PostAd_Invalid_TestCases.tc3_postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases_tc2_postAdWithoutPhoneNo - 2019.03.27 at 22h 48m 26s.xml">
+      <configuration name="PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21748401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +440,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2990249" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2990249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,18 +487,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestCases/Dipti_PostAd.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
@@ -376,20 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krupali_PostAdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="63" column="5" selection-start-line="59" selection-start-column="3" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -407,38 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krina_PostAd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="923">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krina_Signin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="48" column="117" selection-start-line="48" selection-start-column="117" selection-end-line="48" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_PostAd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1916">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -449,34 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="35" column="50" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_Signin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="60" column="57" selection-start-line="60" selection-start-column="57" selection-end-line="60" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -484,34 +533,230 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Dipti_PostAd.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="90" column="45" lean-forward="true" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ChangeCategoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn/Dipti_SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Geetha_Signin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Karan_Signin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="method#validTitle#0;class#Dipti_PostAd#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krupali_SigninTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="153" column="13" lean-forward="true" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+        <state relative-caret-position="525">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Shabana_Signin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
-            <element signature="e#5732#5733#0" expanded="true" />
-            <element signature="e#5778#5779#0" expanded="true" />
-            <element signature="e#5827#5828#0" expanded="true" />
-            <element signature="e#5868#5869#0" expanded="true" />
-            <element signature="e#5912#5913#0" expanded="true" />
-            <element signature="e#5954#5955#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krina_Signin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngxml/projkijiji-ng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listeners/ScreenshotListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ScreenShotTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Karan_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Geetha_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Dipti_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krina_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#tc1_signIn_InvalidEmail#0;class#SignIn_Invalid_TestCases#0" />
+            <element signature="method#tc2_a_siginInNoPswd#0;class#SignIn_Invalid_TestCases#0" />
+            <element signature="method#tc3_signin_blank#0;class#SignIn_Invalid_TestCases#0" />
+            <element signature="method#tc4_Signin_InvalidPassword#0;class#SignIn_Invalid_TestCases#0" />
+            <element signature="method#tc5_CancelForgotPw#0;class#SignIn_Invalid_TestCases#0" />
+            <element signature="method#ForgotPassword#0;class#SignIn_Invalid_TestCases#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invakid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="133" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="133" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#tc1_signIn_InvalidEmail#0;class#SignIn_Invakid_TestCases#0" />
+            <element signature="method#tc2_a_siginInNoPswd#0;class#SignIn_Invakid_TestCases#0" />
+            <element signature="method#tc3_signin_blank#0;class#SignIn_Invakid_TestCases#0" />
+            <element signature="method#tc4_Signin_InvalidPassword#0;class#SignIn_Invakid_TestCases#0" />
+            <element signature="method#tc5_CancelForgotPw#0;class#SignIn_Invakid_TestCases#0" />
+            <element signature="method#ForgotPassword#0;class#SignIn_Invakid_TestCases#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krupali_PostAdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Shabana_PostAd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Valid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1199">
+          <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AdTitle_8symbols#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#selectRadioBtn#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#add_Title#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#selectCheckbox#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#GetAuthenticatedUser#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#addetail_changecategory#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#Ad_title#0;class#PostAd_Valid_TestCases#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#tc3_postAdWithoutPhoneNo#0;class#PostAd_Invalid_TestCases#0" />
+            <element signature="method#priviewAdWitoutAddress#0;class#PostAd_Invalid_TestCases#0" />
           </folding>
         </state>
       </provider>

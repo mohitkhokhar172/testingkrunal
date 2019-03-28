@@ -3,12 +3,16 @@
 
 <suite name="KijijiiTestcases" verbose="1" >
     <test name="Functional Testing"   >
-        <classes>
-            <class name="TestCases.Shabana_Signin"></class>
-            <class name="TestCases.Krina_Signin"></class>
-            <class name="TestCases.Geetha_Signin"></class>
-            <class name="TestCases.Dipti_SignIn"></class>
-            <class name="TestCases.Krupali_SigninTest"></class>
-        </classes>
+        <packages>
+            <package name="TestCases.SignIn_TestCase"></package>
+            <package name="TestCases.PostAd_TestCase"></package>
+        </packages>
+        <!--<classes>-->
+            <!--<class name=""></class>-->
+            <!--<class name="TestCases.Krina_Signin"></class>-->
+            <!--<class name="TestCases.Geetha_Signin"></class>-->
+            <!--<class name="TestCases.Dipti_SignIn"></class>-->
+            <!--<class name="TestCases.Krupali_SigninTest"></class>-->
+        <!--</classes>-->
     </test>
 </suite>

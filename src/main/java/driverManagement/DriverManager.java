@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -56,16 +57,14 @@ public class DriverManager {
     }
 
 
-    // A method for deleting all the ccookies and closing the window
-    public void closureActivities(){
-
-        System.out.println("Deleting all the cookies");
-        driver.manage().deleteAllCookies();
-        System.out.println("All cookies deleted");
-
-        System.out.println("Closing all the windows");
-        driver.close();
-        System.out.println("All windows closed");
+    public void selectElement(String selectValue) {
+        List<WebElement> allElement = driver.findElements(By.xpath("//ul[@class='categoryList-1515474558']/li"));
+        for (WebElement element : allElement) {
+            if (element.getText().equals(selectValue)) {
+                element.click();
+                break;
+            }
+        }
     }
 
 
