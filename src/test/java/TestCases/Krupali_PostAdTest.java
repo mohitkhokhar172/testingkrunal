@@ -34,7 +34,7 @@ public class Krupali_PostAdTest extends DriverManager {
         setWaitUntilVisibilityOfElementLocated(landingPage.authenticatedUserButtonXpath);
 
         return landingPage.getAuthenticatedUserButton().getText();
-    }git
+    }
     // test method for adding title with combination of nums and symbols
     @Test
     public void ValidateAddTitleWithNumberSymbol(){
