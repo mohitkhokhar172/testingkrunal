@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e53b98-7cd6-4b37-999a-29a407895010" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d3e53b98-7cd6-4b37-999a-29a407895010" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="45" column="87" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="87" />
+            <state relative-caret-position="-2619">
+              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding>
                 <element signature="method#postAdMin8chars#0;class#PostAd_Invalid_TestCases#0" />
               </folding>
@@ -99,46 +97,6 @@
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-              <item name="PostAd_TestCase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="testngxml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +267,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -560,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="45" column="87" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="87" />
+        <state relative-caret-position="-2619">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="method#postAdMin8chars#0;class#PostAd_Invalid_TestCases#0" />
           </folding>
