@@ -28,7 +28,7 @@ public class PostAdPage {
     @FindBy(xpath = "//span[@class='maxCharCountdown-2996436710']")
     WebElement spnCountChar;
 
-    @FindBy(css = ".headerButtonPostAd-2493039301")
+    @FindBy(xpath = "//a[@title='Post ad']")
     WebElement btnPostAd;
 
 
@@ -152,16 +152,11 @@ public class PostAdPage {
 
     public PostAdPage enterInvalidAdTitle(String title){
         try {
-            Thread.sleep(5000);
-            Assert.assertTrue(driver.getTitle().contains("Kijiji in Mississauga / Peel Region. - Buy, Sell & Save with Canada's #1 Local Classifieds."),"Page title has been matched");
             btnPostAd.click();
-            this.adTitle.sendKeys(title);
-            if(spnCountChar.isDisplayed()){
-                Assert.assertTrue(nextBtn.isEnabled() == false, "Invalid character length");
-            }
+            Thread.sleep(2000);
+            adTitle.sendKeys(title);
         }
         catch (Exception e) {
-
         }
         return this;
     }

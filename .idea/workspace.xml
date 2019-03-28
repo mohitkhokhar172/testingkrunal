@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="25649db7-1cd5-4ebb-9b53-33416e767db1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" beforeDir="false" />
@@ -8,6 +9,11 @@
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/SigninPage.class" beforeDir="false" />
+=======
+    <list default="true" id="d3e53b98-7cd6-4b37-999a-29a407895010" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" afterDir="false" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +22,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/project_kijiji$E__project_kijiji_testngxml_projkijiji_ng_xml.ic" NAME="$PROJECT_DIR$/testngxml/projkijiji-ng.xml Coverage Results" MODIFIED="1553781424694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krina_PostAd.java">
@@ -113,6 +123,23 @@
       </file>
     </leaf>
   </component>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>L</find>
+      <find>getBrowser();</find>
+    </findStrings>
+  </component>
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -122,6 +149,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/Geetha_Signin.java" />
@@ -144,6 +172,40 @@
     <option name="y" value="14" />
     <option name="width" value="992" />
     <option name="height" value="682" />
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Shabana_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Dipti_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/Karan_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Geetha_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Karan_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krupali_SigninTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Shabana_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krina_Signin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Dipti_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Geetha_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Karan_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krina_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krupali_PostAdTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invakid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Shabana_PostAd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Valid_TestCases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java" />
+        <option value="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -152,7 +214,10 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,28 +228,15 @@
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="driverManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
@@ -198,6 +250,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="PostAd_TestCase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
@@ -206,16 +278,39 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn_TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="testngxml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553738438686" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553787602938" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kajijiproject" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SeleniumProject\project_kijiji\src\test\java\TestCases\SignIn_TestCase" />
+    </key>
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,6 +324,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.Krina_Signin.LogOut">
     <configuration name="Geetha_PostAd.selectRadioBtn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
@@ -242,41 +338,68 @@
       <option name="MAIN_CLASS_NAME" value="TestCases.Geetha_PostAd" />
       <option name="METHOD_NAME" value="selectRadioBtn" />
       <option name="TEST_OBJECT" value="METHOD" />
+=======
+  <component name="RunManager" selected="TestNG.E:/project_kijiji/testngxml/projkijiji-ng.xml">
+    <configuration name="E:/project_kijiji/testngxml/projkijiji-ng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project_kijiji" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Karan_PostAd.priviewAdWitoutAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PostAd_Invalid_TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.Karan_PostAd" />
       <option name="METHOD_NAME" value="priviewAdWitoutAddress" />
       <option name="TEST_OBJECT" value="METHOD" />
+=======
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Invalid_TestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Krina_PostAd.add_Title" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.Krina_PostAd" />
       <option name="METHOD_NAME" value="add_Title" />
+=======
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Invalid_TestCases" />
+      <option name="METHOD_NAME" value="tc2_postAdWithoutPhoneNo" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -284,17 +407,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Krina_Signin.LogOut" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PostAd_Invalid_TestCases.tc3_postAdWithoutPhoneNo" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.Krina_Signin" />
       <option name="METHOD_NAME" value="LogOut" />
+=======
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Invalid_TestCases" />
+      <option name="METHOD_NAME" value="tc3_postAdWithoutPhoneNo" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -302,18 +435,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Krupali_PostAdTest.addetail_changecategory" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="PostAd_Valid_TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <module name="project_kijiji" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="TestCases.PostAd_TestCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="TestCases" />
       <option name="MAIN_CLASS_NAME" value="TestCases.Krupali_PostAdTest" />
       <option name="METHOD_NAME" value="addetail_changecategory" />
       <option name="TEST_OBJECT" value="METHOD" />
+=======
+      <option name="PACKAGE_NAME" value="TestCases.PostAd_TestCase" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.PostAd_TestCase.PostAd_Valid_TestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <properties />
       <listeners />
       <method v="2">
@@ -322,11 +465,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.Krina_Signin.LogOut" />
         <item itemvalue="TestNG.Krina_PostAd.add_Title" />
         <item itemvalue="TestNG.Geetha_PostAd.selectRadioBtn" />
         <item itemvalue="TestNG.Krupali_PostAdTest.addetail_changecategory" />
         <item itemvalue="TestNG.Karan_PostAd.priviewAdWitoutAddress" />
+=======
+        <item itemvalue="TestNG.E:/project_kijiji/testngxml/projkijiji-ng.xml" />
+        <item itemvalue="TestNG.PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" />
+        <item itemvalue="TestNG.PostAd_Invalid_TestCases.tc3_postAdWithoutPhoneNo" />
+        <item itemvalue="TestNG.PostAd_Invalid_TestCases" />
+        <item itemvalue="TestNG.PostAd_Valid_TestCases" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       </list>
     </recent_temporary>
   </component>
@@ -344,6 +495,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="Geetha_PostAd_selectRadioBtn - 2019.03.25 at 23h 26m 01s.xml">
       <configuration name="Geetha_PostAd.selectRadioBtn" configurationId="TestNG" />
     </history-entry>
@@ -410,6 +562,98 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+=======
+    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 19m 54s.xml">
+      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 24m 05s.xml">
+      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Dipti_PostAd_postAdWithoutPhoneNo - 2019.03.27 at 17h 31m 30s.xml">
+      <configuration name="Dipti_PostAd.postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Valid_TestCases - 2019.03.27 at 22h 40m 01s.xml">
+      <configuration name="PostAd_Valid_TestCases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases - 2019.03.27 at 22h 43m 14s.xml">
+      <configuration name="PostAd_Invalid_TestCases" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases_tc3_postAdWithoutPhoneNo - 2019.03.27 at 22h 46m 25s.xml">
+      <configuration name="PostAd_Invalid_TestCases.tc3_postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases_tc2_postAdWithoutPhoneNo - 2019.03.27 at 22h 48m 26s.xml">
+      <configuration name="PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PostAd_Invalid_TestCases_tc2_postAdWithoutPhoneNo - 2019.03.28 at 09h 23m 57s.xml">
+      <configuration name="PostAd_Invalid_TestCases.tc2_postAdWithoutPhoneNo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__project_kijiji_testngxml_projkijiji-ng_xml - 2019.03.28 at 09h 52m 51s.xml">
+      <configuration name="E:/project_kijiji/testngxml/projkijiji-ng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="E__project_kijiji_testngxml_projkijiji-ng_xml - 2019.03.28 at 10h 03m 14s.xml">
+      <configuration name="E:/project_kijiji/testngxml/projkijiji-ng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21748401" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2990249" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
@@ -419,6 +663,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Krupali_SigninTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -437,6 +682,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Shabana_PostAd.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
@@ -452,11 +700,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SigninPage.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="68">
+=======
+        <state relative-caret-position="-1916">
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -506,6 +759,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2142">
           <caret line="140" selection-start-line="140" selection-end-line="140" />
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/PostAdPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/BrowserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ChangeCategoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn/Dipti_SignIn.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Geetha_Signin.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Karan_Signin.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krupali_SigninTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Shabana_Signin.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
           <folding>
             <element signature="e#1220#1221#0" expanded="true" />
             <element signature="e#1255#1256#0" expanded="true" />
@@ -513,6 +819,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/project_kijiji.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,11 +854,30 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/Krina_Signin.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/listeners/ScreenshotListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/Geetha_PostAd.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ScreenShotTaker.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Karan_PostAd.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Geetha_PostAd.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Dipti_PostAd.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krina_PostAd.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1003">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
@@ -568,8 +894,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="60" column="55" selection-start-line="60" selection-start-column="55" selection-end-line="60" selection-end-column="55" />
+=======
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invakid_TestCases.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Krupali_PostAdTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/Shabana_PostAd.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Valid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="method#AdTitle_8symbols#0;class#PostAd_Valid_TestCases#0" />
+            <element signature="method#selectRadioBtn#0;class#PostAd_Valid_TestCases#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngxml/projkijiji-ng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="method#postAdMin8chars#0;class#PostAd_Invalid_TestCases#0" />
+          </folding>
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_add_Title.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_tc2_a_siginInNoPswd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_tc3_signin_blank.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_ValidateAddTitleWithNumberSymbol.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_tc4_Signin_InvalidPassword.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_tc2_LogOut.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_tc1_signIn_InvalidEmail.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_selectRadioBtn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_selectCheckbox.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_postAdMin8chars.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/fail/ScreenShot_addetail_changecategory.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>project_kijiji</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+>>>>>>> 37ecd2f168ac9dcb02e56813c24dfe2e7df751f2
 </project>
