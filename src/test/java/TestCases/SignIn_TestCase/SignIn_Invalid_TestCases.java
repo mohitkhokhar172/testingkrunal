@@ -119,7 +119,6 @@ public class SignIn_Invalid_TestCases extends BaseTest {
     @Test
     public void ForgotPassword(){
         try{
-            getBrowser();
             LandingPage landingPage=new LandingPage(driver);
             SigninPage signinPage = landingPage
                     .clickOnSignin()

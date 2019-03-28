@@ -2,7 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="KijijiiTestcases" verbose="1" >
-    <test name="Functional Testing"   >
+    <listeners>
+        <listener class-name="listeners.ScreenshotListeners"></listener>
+    </listeners>
+    <test name="Functional Testing">
         <packages>
             <package name="TestCases.SignIn_TestCase"></package>
             <package name="TestCases.PostAd_TestCase"></package>
