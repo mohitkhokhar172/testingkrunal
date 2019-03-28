@@ -18,7 +18,7 @@ public class PostAd_Invalid_TestCases extends BaseTest {
     PostAdPage postAdPage;
     LandingPage landingPage;
     SigninPage signinPage;
-    /************ Dipti Test CAses ****************/
+    /************ Dipti Test Cases ****************/
 
     public void validLogin() {
         try {
