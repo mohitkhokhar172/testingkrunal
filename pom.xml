@@ -26,7 +26,10 @@
                     <version>2.22.1</version>
                     <configuration>
                         <suiteXmlFiles>
+
                             <suiteXmlFile>testngxml/projkijiji-ng.xml</suiteXmlFile>
+
+                            <suiteXmlFile>testngxml/Upload_AddImage.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
