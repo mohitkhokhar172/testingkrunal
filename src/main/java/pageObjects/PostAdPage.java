@@ -103,6 +103,8 @@ public class PostAdPage {
     public void ValidateAddTitle(){
         LandingPage landingPage=new LandingPage(driver);
         landingPage.afterClickingPostAdBtn();
+        WebDriverWait wait=new WebDriverWait(driver,30);
+        wait.until(ExpectedConditions.visibilityOf(this.adTitle));
         this.editAdTitleFiled("QA Automation").clickNextBtn();
     }
 
@@ -197,6 +199,10 @@ public class PostAdPage {
     public WebElement getServices(){
 
         return this._services;
+    }
+
+    public WebElement getAdTitle(){
+        return this.adTitle;
     }
 
     public WebElement getSelectCategory(){

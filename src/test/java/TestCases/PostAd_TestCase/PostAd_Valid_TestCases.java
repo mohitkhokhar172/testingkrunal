@@ -135,9 +135,10 @@ public class PostAd_Valid_TestCases extends BaseTest {
         Assert.assertEquals(GetAuthenticatedUser(), "A", "Login for posting ad is invalid");
 
         PostAdPage postAdPage=landingPage.afterClickingPostAdBtn();
+        setWait(postAdPage.getAdTitle());
         postAdPage.editAdTitleFiled("1111****")
                 .clickNextBtn().getSelectCategory();
-
+        setWait(postAdPage.getSelectCategory());
         Assert.assertEquals(postAdPage.getSelectCategory().getText(),"Select a category","Select category form is not appeared");
     }
 
@@ -145,54 +146,61 @@ public class PostAd_Valid_TestCases extends BaseTest {
     public void addetail_changecategory(){
 
         // To check login is valid or not
-        LandingPage landingPage =new LandingPage(driver);
-        Assert.assertEquals(GetAuthenticatedUser(), "A", "Login for posting ad is invalid");
+        try {
+            LandingPage landingPage = new LandingPage(driver);
+            Assert.assertEquals(GetAuthenticatedUser(), "A", "Login for posting ad is invalid");
 
-        // To check cateogry after adding title
-        PostAdPage postAdPage = new PostAdPage(driver);
-        postAdPage.ValidateAddTitle();
-        Assert.assertEquals(postAdPage.getSelectCategory().getText(),"Select a category","Select category form is not appeared");
+            // To check cateogry after adding title
+            PostAdPage postAdPage = new PostAdPage(driver);
 
-        // To click on Serivces
-        if(postAdPage.getServices().isDisplayed()) {
+            postAdPage.ValidateAddTitle();
+            setWait(postAdPage.getSelectCategory());
+            Assert.assertEquals(postAdPage.getSelectCategory().getText(), "Select a category", "Select category form is not appeared");
 
-            setClickableWait(postAdPage.getServices());
-            postAdPage.ClickServices();
+            // To click on Serivces
+            if (postAdPage.getServices().isDisplayed()) {
 
-        }else{
-            System.out.println("Services not found on PostAd Page");
-        }
+                setClickableWait(postAdPage.getServices());
+                postAdPage.ClickServices();
 
-
-        //to click on tutor and languages
-        int totalNumberOfCategories = postAdPage.getAllCategories().size();
-
-        setWait(postAdPage.getTutorLanguage());
-        for (int i = 0; i < totalNumberOfCategories; i++) {
-            WebElement currentElement = postAdPage.getAllCategories().get(i);
-            setClickableWait(currentElement);
-            String currentCategory = currentElement.getText();
-            if (currentCategory.equals("Tutors & Languages")) {
-                postAdPage.getAllCategories().get(i).click();
-                break;
+            } else {
+                System.out.println("Services not found on PostAd Page");
             }
+
+
+            //to click on tutor and languages
+            setWait(postAdPage.getSubCategorySection());
+            int totalNumberOfCategories = postAdPage.getAllCategories().size();
+
+            setWait(postAdPage.getTutorLanguage());
+            for (int i = 0; i < totalNumberOfCategories; i++) {
+                WebElement currentElement = postAdPage.getAllCategories().get(i);
+                setClickableWait(currentElement);
+                String currentCategory = currentElement.getText();
+                if (currentCategory.equals("Tutors & Languages")) {
+                    postAdPage.getAllCategories().get(i).click();
+                    break;
+                }
+            }
+            System.out.println("clicked on Tutor and Languages");
+
+            AddDetailsPage addDetailsPage = new AddDetailsPage(driver);
+            setWait(addDetailsPage.getAd_details());
+
+
+            if (addDetailsPage.getAd_details().getText().contains("Ad Details")) {
+                System.out.println("On Ad Details Page");
+            } else {
+                System.out.println("Not on Ad Details Page");
+            }
+
+            ChangeCategoryPage changeCategoryPage = addDetailsPage.chnageCategory_click();
+
+            setWait(changeCategoryPage.getChangeCategoryTitle());
+            Assert.assertEquals(changeCategoryPage.getChangeCategoryTitle().getText(), "Change Category", "Not on change category page");
+        }catch(Exception e){
+
         }
-        System.out.println("clicked on Tutor and Languages");
-
-        AddDetailsPage addDetailsPage=new AddDetailsPage(driver);
-        setWait(addDetailsPage.getAd_details());
-
-
-        if(addDetailsPage.getAd_details().getText().contains("Ad Details")){
-            System.out.println("On Ad Details Page");
-        }else{
-            System.out.println("Not on Ad Details Page");
-        }
-
-        ChangeCategoryPage changeCategoryPage=addDetailsPage.chnageCategory_click();
-
-        setWait(changeCategoryPage.getChangeCategoryTitle());
-        Assert.assertEquals(changeCategoryPage.getChangeCategoryTitle().getText(),"Change Category","Not on change category page");
     }
 
     /***************** Shabana Tes Cases ************************/

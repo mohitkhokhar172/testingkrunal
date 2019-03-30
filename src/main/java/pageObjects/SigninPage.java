@@ -119,7 +119,9 @@ public class SigninPage {
             this.logoutBtn.click();
             return this;
         }
-
+  public WebElement getEmailAddressField(){
+        return this.emailAddressField;
+  }
     public void ValidateSignin(){
         LandingPage landingPage=new LandingPage(driver);
         landingPage.afterClickOnSignin();

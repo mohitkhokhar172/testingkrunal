@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 import pageObjects.LandingPage;
 import pageObjects.SigninPage;
 
+import java.util.concurrent.TimeUnit;
+
 public class SignIn_Invalid_TestCases extends BaseTest {
 
     /***** GeeTha Test Cases ******/
@@ -70,18 +72,20 @@ public class SignIn_Invalid_TestCases extends BaseTest {
 
     @Test
     public void tc3_signin_blank(){
-        LandingPage landingPage=new LandingPage(driver);
-        landingPage.afterClickOnSignin();
-        SigninPage signinPage=new SigninPage(driver);
-        signinPage.enterEmail("")
-                .enterPassword("Kselproj2019*")
-                .clickCheckBox()
-                .checkTheCheckBox()
-                .clickLogin();
+        try {
 
-        WebElement errormsg =driver.findElement(By.xpath("//*[@class='field-message error']"));
-        Assert.assertEquals(errormsg.getText(),"Please enter information above.","Error message is not matching");
-
+            LandingPage landingPage=new LandingPage(driver);
+            SigninPage signinPage = landingPage.afterClickOnSignin().enterEmail("")
+                    .enterPassword("Kselproj2019*")
+                    .clickCheckBox()
+                    .checkTheCheckBox()
+                    .clickLogin();
+            WebElement errormsg =driver.findElement(By.xpath("//*[@class='field-message error']"));
+            Assert.assertEquals(errormsg.getText(),"Please enter information above.","Error message is not matching");
+        }
+        catch (Exception ex)
+        {
+        }
     }
 
     /****************** Shabana Test CAses ****************/
