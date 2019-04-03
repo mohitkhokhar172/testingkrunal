@@ -4,10 +4,10 @@
 <suite name="KijijiiImageUploasTestcases" verbose="1" >
 
     <test name="Functional Upload Testing">
-        <packages>
-            <package name="TestCases.UploadAdImage_TestCase"></package>
+        <!--<packages>-->
+            <!--<package name="TestCases.UploadAdImage_TestCase"></package>-->
 
-        </packages>
+        <!--</packages>-->
 
     </test>
 </suite>

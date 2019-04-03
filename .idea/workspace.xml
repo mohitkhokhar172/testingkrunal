@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5795309c-5ff6-4685-9f27-5a8748ed4044" name="Default Changelist" comment="" />
+    <list default="true" id="5795309c-5ff6-4685-9f27-5a8748ed4044" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/AddDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/AddDetailsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngxml/Upload_AddImage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngxml/Upload_AddImage.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +20,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testngxml/Upload_AddImage.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -29,9 +95,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java" />
         <option value="$PROJECT_DIR$/testngxml/Upload_AddImage.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -54,6 +121,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,6 +133,27 @@
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driverManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
@@ -90,17 +179,34 @@
             <path>
               <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn_TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
+              <item name="UploadAdImage_TestCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_kijiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_kijiji" type="462c0819:PsiDirectoryNode" />
               <item name="testngxml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553920672395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554335095189" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -125,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/user/IdeaProjects/project_kijiji/testngxml/Upload_AddImage.xml">
+  <component name="RunManager" selected="TestNG.UploadDemo.uploadTest">
     <configuration name="C:/Users/user/IdeaProjects/project_kijiji/testngxml/Upload_AddImage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project_kijiji" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngxml/Upload_AddImage.xml" />
@@ -156,8 +262,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/user/IdeaProjects/project_kijiji/testngxml/Upload_AddImage.xml" />
         <item itemvalue="TestNG.UploadDemo.uploadTest" />
+        <item itemvalue="TestNG.C:/Users/user/IdeaProjects/project_kijiji/testngxml/Upload_AddImage.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -214,11 +320,18 @@
     <history-entry file="C__Users_user_IdeaProjects_project_kijiji_testngxml_Upload_AddImage_xml - 2019.03.30 at 00h 04m 57s.xml">
       <configuration name="C:/Users/user/IdeaProjects/project_kijiji/testngxml/Upload_AddImage.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="UploadDemo_uploadTest - 2019.04.03 at 19h 41m 40s.xml">
+      <configuration name="UploadDemo.uploadTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UploadDemo_uploadTest - 2019.04.03 at 19h 43m 07s.xml">
+      <configuration name="UploadDemo.uploadTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25692964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2595949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,15 +340,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,24 +364,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="First Commit For Upload Ad Image by Faisal Khan..." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testngxml/Upload_AddImage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testngxml/projkijiji-ng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="8" lean-forward="true" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -282,7 +381,52 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Invalid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/SignIn_TestCase/SignIn_Valid_TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngxml/Upload_AddImage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
