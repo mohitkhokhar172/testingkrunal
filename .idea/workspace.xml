@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5795309c-5ff6-4685-9f27-5a8748ed4044" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driverManagement/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/AddDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/AddDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/PostAdPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+            <state relative-caret-position="372">
+              <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="9" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="25">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,9 +109,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestCases/UploadAdImage_TestCase/UploadDemo.java" />
         <option value="$PROJECT_DIR$/testngxml/Upload_AddImage.xml" />
-        <option value="$PROJECT_DIR$/data.properties" />
         <option value="$PROJECT_DIR$/src/main/java/driverManagement/BrowserType.java" />
         <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
+        <option value="$PROJECT_DIR$/data.properties" />
       </list>
     </option>
   </component>
@@ -157,7 +150,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554388158464" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554388462043" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -280,9 +273,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-97" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26226014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26226014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +290,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
@@ -374,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="9" selection-start-line="6" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/BrowserType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -390,8 +377,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        <state relative-caret-position="372">
+          <caret line="121" column="37" lean-forward="true" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
