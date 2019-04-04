@@ -153,7 +153,7 @@ public class DriverManager {
     }
 
     private static WebDriver GetIEDriver(){
-        System.setProperty("webdriver.chrome.driver", getProperty("internetExplorerPath"));
+        System.setProperty("webdriver.ie.driver", getProperty("internetExplorerPath"));
         return new InternetExplorerDriver();
     }
 
