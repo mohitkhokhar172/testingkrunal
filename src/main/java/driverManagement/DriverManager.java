@@ -111,7 +111,7 @@ public class DriverManager {
     /** Modified Driver Manager File By Dipti **/
 
     public static void getBrowser(){
-        driver = Create(BrowserType.Ie);
+        driver = Create(BrowserType.Chrome);
         driver.get("https://www.kijiji.ca/");
         driver.manage().window().maximize();
     }
@@ -124,6 +124,8 @@ public class DriverManager {
                 return GetChromeDriver();
             case FireFox:
                 return GetFirefoxDriver();
+            case Edge:
+                return GetEdgeDriver();
             default:
                 throw new NoSuchElementException("No such browser found");
         }
@@ -157,6 +159,10 @@ public class DriverManager {
         return new InternetExplorerDriver();
     }
 
+    private static WebDriver GetEdgeDriver(){
+        System.setProperty("webdriver.edge.driver", getProperty("EdgePath "));
+        return new InternetExplorerDriver();
+    }
 
 
 
