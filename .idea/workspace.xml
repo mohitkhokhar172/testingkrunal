@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5795309c-5ff6-4685-9f27-5a8748ed4044" name="Default Changelist" comment="First Commit For Upload Ad Image by Faisal Khan...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="150" column="66" selection-start-line="150" selection-start-column="66" selection-end-line="150" selection-end-column="66" />
+            <state relative-caret-position="456">
+              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testngxml/projkijiji-ng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -47,6 +55,7 @@
         <option value="$PROJECT_DIR$/data.properties" />
         <option value="$PROJECT_DIR$/testngxml/Upload_AddImage.xml" />
         <option value="$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java" />
+        <option value="$PROJECT_DIR$/testngxml/projkijiji-ng.xml" />
       </list>
     </option>
   </component>
@@ -71,7 +80,22 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project_Kajiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_Kajiji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project_Kajiji" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project_Kajiji" type="462c0819:PsiDirectoryNode" />
+              <item name="testngxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,13 +258,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="First Commit For Upload Ad Image by Faisal Khan..." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testngxml/projkijiji-ng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" lean-forward="true" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestCases/PostAd_TestCase/PostAd_Invalid_TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -302,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driverManagement/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="150" column="66" selection-start-line="150" selection-start-column="66" selection-end-line="150" selection-end-column="66" />
+        <state relative-caret-position="456">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
@@ -311,6 +328,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testngxml/projkijiji-ng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
