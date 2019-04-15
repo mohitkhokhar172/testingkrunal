@@ -148,7 +148,7 @@ public class DriverManager {
     private static WebDriver GetChromeDriver(){
         System.setProperty("webdriver.chrome.driver", getProperty("chromePath"));
         ChromeOptions options = new ChromeOptions();
-        Boolean headless = Boolean.valueOf("headless");
+        Boolean headless = Boolean.valueOf(getProperty("headless"));
         options.setHeadless(headless);
         return new ChromeDriver(options);
     }
