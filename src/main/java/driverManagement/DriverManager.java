@@ -5,6 +5,7 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -146,7 +147,10 @@ public class DriverManager {
 
     private static WebDriver GetChromeDriver(){
         System.setProperty("webdriver.chrome.driver", getProperty("chromePath"));
-        return new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        Boolean headless = Boolean.valueOf("headless");
+        options.setHeadless(headless);
+        return new ChromeDriver(options);
     }
 
     private static WebDriver GetFirefoxDriver(){
